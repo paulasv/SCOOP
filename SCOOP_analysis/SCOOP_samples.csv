@@ -1,0 +1,199 @@
+Haul_n,Type,SampleID
+1,Sediment,Stn 1
+2,Sediment,Stn 2
+4,Sediment,Stn 4
+5,Sediment,Stn 5
+6,Sediment,Stn 6
+7,Sediment,Stn 7
+8,Sediment,Stn 8
+9,Sediment,Stn 9
+10,Sediment,Stn 10
+11,Sediment,Stn 11
+12,Sediment,Stn 12
+13,Sediment,Stn 13
+1,Filters,Stn 1
+2,Filters,Stn 2
+4,Filters,Stn 4
+5,Filters,Stn 5
+6,Filters,Stn 6
+7,Filters,Stn 7
+8,Filters,Stn 8
+9,Filters,Stn 9
+10,Filters,Stn 10
+11,Filters,Stn 11
+12,Filters,Stn 12
+13,Filters,Stn 13
+1,Fish,HAD3
+1,Fish,HAD4
+1,Fish,HAD5
+1,Fish,HAD6
+1,Fish,HAD7
+8,Fish,HAD10
+8,Fish,HAD11
+8,Fish,HAD12
+8,Fish,HAD13
+8,Fish,HAD14
+8,Fish,HAD15
+8,Fish,HAD16
+8,Fish,HAD18
+8,Fish,HAD19
+8,Fish,HAD20
+8,Fish,HAD21
+8,Fish,HAD22
+8,Fish,HAD23
+11,Fish,HAD28
+11,Fish,HAD29
+11,Fish,HAD30
+11,Fish,HAD31
+11,Fish,HAD32
+11,Fish,HAD34
+11,Fish,HAD35
+12,Fish,HAD46
+12,Fish,HAD44
+12,Fish,HAD41
+12,Fish,HAD42
+12,Fish,HAD43
+1,Fish,HKE34
+2,Fish,HKE31
+2,Fish,HKE32
+2,Fish,HKE33
+4,Fish,HKE1
+4,Fish,HKE4
+4,Fish,HKE8
+4,Fish,HKE9
+4,Fish,HKE10
+4,Fish,HKE11
+4,Fish,HKE13
+4,Fish,HKE14
+4,Fish,HKE15
+4,Fish,HKE16
+5,Fish,HKE18
+5,Fish,HKE19
+6,Fish,HKE21
+6,Fish,HKE22
+6,Fish,HKE25
+6,Fish,HKE26
+6,Fish,HKE27
+7,Fish,HKE29
+7,Fish,HKE30
+8,Fish,HKE36
+9,Fish,HKE40
+10,Fish,HKE41
+12,Fish,HKE43
+13,Fish,HKE49
+13,Fish,HKE45
+13,Fish,HKE46
+1,Fish,WHG62
+4,Fish,WHG1
+4,Fish,WHG2
+4,Fish,WHG3
+4,Fish,WHG4
+4,Fish,WHG5
+4,Fish,WHG6
+5,Fish,WHG17
+5,Fish,WHG18
+5,Fish,WHG19
+6,Fish,WHG22
+6,Fish,WHG23
+6,Fish,WHG26
+6,Fish,WHG27
+6,Fish,WHG28
+6,Fish,WHG33
+6,Fish,WHG34
+6,Fish,WHG35
+7,Fish,WHG44
+7,Fish,WHG45
+7,Fish,WHG46
+7,Fish,WHG48
+7,Fish,WHG50
+7,Fish,WHG42
+7,Fish,WHG43
+8,Fish,WHG66
+8,Fish,WHG67
+11,Fish,WHG68
+12,Fish,WHG71
+12,Fish,WHG72
+1,Fish,HOM21
+1,Fish,HOM22
+2,Fish,HOM18
+2,Fish,HOM20
+4,Fish,HOM12
+8,Fish,HOM23
+8,Fish,HOM24
+8,Fish,HOM25
+8,Fish,HOM26
+9,Fish,HOM27
+10,Fish,HOM29
+10,Fish,HOM33
+10,Fish,HOM48
+11,Fish,HOM55
+11,Fish,HOM56
+11,Fish,HOM58
+11,Fish,HOM59
+11,Fish,HOM62
+11,Fish,HOM64
+11,Fish,HOM50
+11,Fish,HOM51
+11,Fish,HOM52
+12,Fish,HOM65
+12,Fish,HOM66
+12,Fish,HOM67
+,Fish,LHOM91
+2,Fish,LHOM5.1
+12,Fish,LHOM121
+12,Fish,LHOM122
+2,Fish,LHOM5.2
+2,Fish,LHOM5.3
+1,Fish,POD29
+1,Fish,POD30
+2,Fish,POD21
+2,Fish,POD27
+2,Fish,POD26
+4,Fish,POD1
+4,Fish,POD4
+5,Fish,POD8
+6,Fish,POD10
+6,Fish,POD14
+6,Fish,POD15
+7,Fish,POD17
+7,Fish,POD18
+7,Fish,POD19
+8,Fish,POD35
+9,Fish,POD45
+11,Fish,POD49
+12,Fish,POD54
+12,Fish,POD66
+1,Fish,NOP3
+2,Fish,NOP1
+8,Fish,NOP7
+12,Fish,NOP9
+12,Fish,NOP10
+7,Fish,POL1
+9,Fish,LIN1
+11,Fish,BSS1
+1,Fish,WHB4
+4,Fish,WHB1
+4,Fish,WHB2
+4,Fish,WHB3
+9,Fish,WHB7
+11,Fish,WHB8
+11,Fish,WHB9
+11,Fish,WHB10
+11,Fish,WHB12
+11,Fish,WHB13
+11,Fish,WHB14
+11,Fish,WHB15
+11,Fish,WHB16
+11,Fish,WHB17
+12,Fish,WHB18
+12,Fish,WHB19
+12,Fish,WHB20
+13,Fish,WHB21
+-,Fish,IGFS7
+-,Fish,IGFS1
+-,Fish,IGFS2
+-,Fish,IGFS3
+-,Fish,IGFS4
+-,Fish,IGFS5
+-,Fish,IGFS6
+-,Fish,IGFS8

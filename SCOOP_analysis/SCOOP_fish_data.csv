@@ -1,0 +1,700 @@
+Cruise,Haul_n,Date,SampleID,SpeciesCode,Length,Weight,Sex,Maturity ,Parasites,FaecalMatter,Live,Photo,Seconds,Temperature,Color,Consistency ,Shape,Membrane,ROC,dDNA,Lipid,POCDOC,Stomach,Otolith/Tissue,Rubbing,Gutted_weight#,Gall_Bladder,Comments
+SCOOP25,4,07/12/2025,WHG1,WHG,30,0.216,F,2,No,Yes,,Yes,NA,NA,Pink-brown,Pasty,Amorphous,No,Yes,Yes,No,No,Yes,Yes,,,,Has some pellets/grains in it. Very mucusy
+SCOOP25,4,07/12/2025,WHG2,WHG,27,0.148,F,2,No,Yes,,No,NA,NA,Brown,Smooth,Tubular,No,Yes,Yes,No,No,Yes,Yes,,,,"Near rectum poo was brown, further up gut was pink-orangeand more liquid and slimy than smooth. All material was taken mid and hind gut. "
+SCOOP25,4,07/12/2025,WHG3,WHG,28,0.164,F,3,No,Yes,,Yes,NA,NA,Orange-yellow,Fibrous unidentified material,Amorphous,No,Yes,No,No,No,Yes,Yes,,,,Amorphous but had some more solid bits.
+SCOOP25,4,07/12/2025,WHG4,WHG,25,0.14,F,3,No,Yes,,Yes,NA,NA,Brown,Smooth,Amorphous,No,Yes,No,No,No,No,Yes,,,,Rectum faeces were black. Upper gut faeces were granular.
+SCOOP25,4,07/12/2025,WHG5,WHG,26,0.138,F,3,No,Yes,,Yes,NA,NA,Orange-brown,Pasty,Tubular,No,Yes,No,No,No,No,Yes,,,,NA
+SCOOP25,4,07/12/2025,WHG6,WHG,23,0.1,M,2,No,Yes,,Yes,NA,NA,Orange-brown,Pasty,Tubular,No,Yes,No,No,No,No,Yes,,,,NA
+SCOOP25,4,07/12/2025,WHG7,WHG,23,0.11,M,2,No,Yes,,No,NA,NA,Orange-brown,Pasty,Amorphous,No,No,No,Yes,No,No,Yes,,,,NA
+SCOOP25,4,07/12/2025,WHG8,WHG,23,0.132,M,2,No,Yes,,Yes,NA,NA,Pink-brown,Pasty,Amorphous,No,No,No,Yes,No,No,Yes,,,,Shape slightly tubular but too soft to hold shape.
+SCOOP25,4,07/12/2025,WHG9,WHG,23,0.106,M,2,No,Yes,,Yes,NA,NA,Black-green,Liquid,Amorphous,No,No,No,Yes,No,Yes,Yes,,,,"Lower gut empty, upper gut sampled."
+SCOOP25,4,07/12/2025,WHG10,WHG,24,0.114,M,2,No,Yes,,Yes,NA,NA,Orange,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,HOM1,HOM,22,0.118,F,Unknown,No,Yes,,Yes,NA,NA,Orange,"Slimy, jelly",Amorphous,No,No,Yes,No,No,Yes,Yes,,,,Maybe just mucous/not faeces
+SCOOP25,4,07/12/2025,HOM2,HOM,19,0.08,F,Unknown,Yes,Yes,,Yes,NA,NA,Yellow,"Liquid, slimy",Amorphous,No,No,Yes,No,No,Yes,Yes,,,,"Poo was gooey-liquid, gel like. There were some parasites, not loads."
+SCOOP25,5,07/12/2025,WHG11,WHG,22,0.092,M,2,Yes,Yes,,Yes,NA,NA,Red-brown,"Slimy, some brown pasty",Tubular,No,No,Yes,No,No,Yes,Yes,,,,"Live parasite work in the poo almost at the end of the gut, higher up the poo was more brown and pasty, lower was slimy"
+SCOOP25,5,07/12/2025,WHG12,WHG,28,0.168,M,3,Yes,Yes,,Yes,NA,NA,Brown,Fibrous unidentified material,Tubular,No,No,Yes,No,No,Yes,Yes,,,,"Poo was fibrous but also slimy and a bit gel-like. Mucus present. Soft but doesn’t break, coiled with small pellets, doesn't mix, gloopy."
+SCOOP25,5,07/12/2025,HOM8,HOM,17,0.048,F,Unknown,No,Unsure,,Yes,NA,NA,Yellow-orange,"Slimy, jelly",Amorphous,No,No,Yes,No,No,Yes,Yes,,,,"Not sure if faeces present, quite empty, maybe mucous."
+SCOOP25,5,07/12/2025,HOM9,HOM,16,0.04,Juv,Unknown,No,Unsure,,Yes,NA,NA,Yellow,Liquid,Amorphous,No,No,Yes,No,No,Yes,Yes,,,,"Very empty, contents likely to be old may not get result. Poo was nearly liquid with some small bits of pasty."
+SCOOP25,5,07/12/2025,WHG17,WHG,24,0.106,M,2,No,Yes,,Yes,NA,NA,Yellow,Fibrous unidentified material,Tubular,No,Yes,No,No,No,Yes,Yes,,,,NA
+SCOOP25,5,07/12/2025,WHG18,WHG,29,0.194,F,3,No,Yes,,Yes,NA,NA,White,Pasty,Tubular,No,Yes,No,No,No,Yes,Yes,,,,Gut at end empty
+SCOOP25,5,07/12/2025,WHG19,WHG,34,0.342,F,3,Yes,Yes,,Yes,NA,NA,Orange-brown,Pasty,Tubular,No,Yes,No,No,No,Yes,Yes,,,,NA
+SCOOP25,4,07/12/2025,WHB1,WHB,28,0.15,F,2,,Yes,,Yes,NA,NA,Black,Smooth,Tubular,No,Yes,No,No,No,No,Yes,,,,NA
+SCOOP25,4,07/12/2025,WHB2,WHB,28,0.14,F,2,,Yes,,Yes,NA,NA,Grey,Pasty,Tubular,No,Yes,No,No,No,No,Yes,,,,Muddy poo
+SCOOP25,4,07/12/2025,WHB3,WHB,26,0.104,M,2,,Yes,,Yes,NA,NA,Black,Smooth,Tubular,No,Yes,No,No,No,No,,,,,
+SCOOP25,4,07/12/2025,HKE1,HKE,45,0.91,F,4,,Yes,,Yes,NA,NA,Green,Liquid,Amorphous,No,Yes,No,No,No,Maybe,,,,,liquidy
+SCOOP25,4,07/12/2025,,HKE,34,0.274,M,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,29,0.154,M,2,,No,,,NA,NA,,,,,,,,,,,,,,"A little in upper gut, none taken"
+SCOOP25,4,07/12/2025,HKE4,HKE,27,0.132,M,2,,Yes,,Yes,NA,NA,Brown,Pasty,Tubular,No,Yes,No,No,No,No,Yes,,,,Silver-brown a bit liquid
+SCOOP25,4,07/12/2025,,HKE,31,0.152,M,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,29,0.168,M,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,27,0.132,M,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HKE8,HKE,28,0.138,F,2,,Yes,,Yes,NA,NA,Black,Pasty,Lump,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,HKE,28,0.136,M,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HKE9,HKE,29,0.148,M,2,,Yes,,Yes,NA,NA,Orange,Pasty,Tubular,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,HKE,29,0.17,F,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,27,0.128,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,25,0.112,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HKE10,HKE,25,0.09,M,2,,Yes,,Yes,NA,NA,Brown,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,HKE,25,0.162,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,27,0.142,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,24,0.084,M,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,27,0.128,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HKE11,HKE,26,0.098,M,1,,Yes,,Yes,NA,NA,Orange,Fibrous unidentified material,Tubular,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,HKE12,HKE,24,0.092,M,1,,Yes,,Yes,NA,NA,Brown,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,HKE,26,0.102,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,24,0.096,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,28,0.128,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,27,0.128,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,25,0.116,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,22,0.07,M,1,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,25,0.088,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HKE13,HKE,22,0.064,M,2,,Yes,,Yes,NA,NA,Orange,Smooth,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,HKE,23,0.072,M,1,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,22,0.066,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,22,0.07,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HKE14,HKE,20,0.056,F,1,,Yes,,Yes,NA,NA,White,Smooth/lumps,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,HKE,23,0.084,F,1,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HKE15,HKE,21,0.058,F,1,,Yes,,Yes,NA,NA,Oraange-brown,,,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,HKE,21,0.062,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HKE16,HKE,19,0.044,F,1,,Yes,,Yes,NA,NA,White,Smooth,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,HKE,19,0.038,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,16,0.022,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HKE,14,0.016,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HKE17,HKE,13,0.014,U,1,,Yes,,Yes,NA,NA,Brown,Smooth,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,POD1,POD,17,0.054,U,1,,Yes,,Yes,NA,NA,Brown,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,POD2,POD,16,0.046,F,2,,Yes,,Yes,NA,NA,Brown-pink,Pasty-liquid,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,POD,19,0.07,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,POD,17,0.052,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,POD,16,0.046,,,,Unchecked,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,,HOM,17,0.04,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,HOM10,HOM,19,0.05,,,,Yes,,Yes,NA,NA,Orange-yellow,,,No,Yes,No,No,No,No,Yes,Yes,,,Mucous
+SCOOP25,4,07/12/2025,,HOM,18,0.048,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,HOM11,HOM,21,0.064,,,,Yes,,Yes,NA,NA,Orange-yellow,,,No,Yes,No,No,No,No,Yes,Yes,,,Mucous
+SCOOP25,4,07/12/2025,,HOM,21,0.074,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,,HOM,22,0.076,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,,HOM,20,0.056,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,,HOM,20,0.06,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,,HOM,18,0.046,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,,HOM,21,0.082,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,,HOM,21,0.066,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,,HOM,22,0.084,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,,HOM,18,0.044,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,HOM12,HOM,20,0.066,,,,Yes,,Yes,NA,NA,Brown,,,No,Yes,No,No,No,No,Yes,Yes,,,
+SCOOP25,4,07/12/2025,HOM13,HOM,19,0.056,,,,Yes,,Yes,NA,NA,Brown,,,No,Yes,No,No,No,No,Yes,Yes,,,Brown in white mucous
+SCOOP25,5,07/12/2025,,HKE,37,0.296,M,3,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,,HKE,28,0.136,F,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,,HKE,28,0.136,F,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,,HKE,31,0.184,F,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,,HKE,27,0.126,M,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,,HKE,36,0.136,F,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,HKE18,HKE,28,0.158,F,2,,Yes,,Yes,NA,NA,,,,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,5,07/12/2025,,HKE,30,0.172,F,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,HKE19,HKE,24,0.1,M,2,,Yes,,Yes,NA,NA,,,,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,5,07/12/2025,,HKE,29,0.152,F,2,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,,HKE,22,0.07,M,1,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,HKE20,HKE,20,0.054,F,1,,Yes,,Yes,NA,NA,,,,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,5,07/12/2025,,HKE,22,0.072,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,HKE21,HKE,12,0.01,U,1,,Yes,,Yes,NA,NA,,,,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,5,07/12/2025,,HKE,11,0.008,U,1,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,,HKE,10,0.006,U,1,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,5,07/12/2025,POD7,POD,12,0.016,U,1,,Yes,,Yes,NA,NA,,,,No,Yes,No,No,No,No,Yes,Yes,,,
+SCOOP25,5,07/12/2025,POD8,POD,14,0.026,M,2,,Yes,,Yes,NA,NA,,,,No,Yes,No,No,No,No,Yes,Yes,,,
+SCOOP25,5,07/12/2025,POD9,POD,11,0.012,F,2,,Yes,,Yes,NA,NA,,,,No,Yes,No,No,No,No,Yes,Yes,,,
+SCOOP25,5,07/12/2025,,POD,12,0.02,U,1,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,5,07/12/2025,,POD,9,0.008,U,1,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,5,07/12/2025,,POD,9,0.004,U,1,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,5,07/12/2025,,POD,9,0.008,U,1,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,5,07/12/2025,,POD,7,0.004,U,1,,Yes,,No,NA,NA,,,,,No,,,,,,Yes,,,"Got messed up, no sample"
+SCOOP25,5,07/12/2025,,HOM,17,0.05,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,5,07/12/2025,,HOM,17,0.05,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,5,07/12/2025,,HOM,17,0.048,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,5,07/12/2025,,HOM,17,0.044,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,4,07/12/2025,,POD,17,0.06,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,POD,17,0.054,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,POD,17,0.052,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,POD,16,0.042,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,POD3,POD,15,0.036,M,2,,Yes,,Yes,NA,NA,Brown-orange,Pasty-liquid,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,POD4,POD,14,0.028,U,1,,Yes,,Yes,NA,NA,Brown-orange,Pasty,Tubular,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,POD,15,0.03,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,POD,14,0.032,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,POD,15,0.032,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,POD,17,0.05,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,POD,15,0.036,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,POD5,POD,13,0.022,F,2,,Yes,,Yes,NA,NA,Brown,Pasty,Liquid,,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,POD,10,0.014,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,POD6,POD,10,0.012,U,1,,Yes,,Yes,NA,NA,Brown-orange,Pasty,Separate lumps,,Yes,No,No,No,No,Yes,,,,
+SCOOP25,4,07/12/2025,,POD,9,0.006,U,1,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,7,08/12/2025,WHG44,WHG,30,0.24,M,2,Yes,Yes,,Yes,NA,NA,White,Pasty,Tubular,No,Yes,No,No,No,Yes,Yes,,,,
+SCOOP25,7,08/12/2025,POL1,POL,60,2.068,F,3,Yes,Yes,,Yes,NA,NA,Silver-grey,Liquid,Amorphous,No,Yes,No,No,No,Yes,Yes,,,,Shimmering
+SCOOP25,7,08/12/2025,WHG45,WHG,26,0.136,M,2,No,Yes,,Yes,NA,NA,White,Pasty - clay,Amorphous,No,Yes,No,No,No,Yes,Yes,,,,"White clay near rectum but higher up its fibrous organic material, orange in colour and tubular"
+SCOOP25,7,08/12/2025,WHG46,WHG,33,0.324,M,3,No,Yes,,Yes,NA,NA,White,Clay-liquid,Amorphous,No,Yes,No,No,No,Yes,Yes,,,,
+SCOOP25,7,08/12/2025,WHG47,WHG,24,0.124,M,2,No,Yes,,Yes,NA,NA,Yellow,Pasty-liquid,Amorphous,No,Yes,No,No,No,Yes,Yes,,,,Slightly yellow
+SCOOP25,7,08/12/2025,WHG48,WHG,25,0.124,M,2,No,Yes,,Yes,NA,NA,Pinkish,Pasty,Amorphous,No,Yes,No,No,No,Yes,Yes,,,,"Pink and pasty near rectum, further up orange fibrous organic and tubular. Photo label stated this was station 6"
+SCOOP25,7,08/12/2025,WHG49,WHG,27,0.145,M,2,No,Yes,,Yes,NA,NA,Yellow,Liquid,Amorphous,No,Yes,No,No,No,Yes,Yes,,,,
+SCOOP25,7,08/12/2025,WHG50,WHG,31,0.266,F,3,No,Yes,,Yes,NA,NA,Orange,Pasty,Tubular,No,Yes,No,No,No,Yes,Yes,,,,
+SCOOP25,7,08/12/2025,WHG51,WHG,22,0.096,M,2,No,Yes,,Yes,NA,NA,White,Pasty-liquid,Tubular,No,Yes,No,No,No,Yes,Yes,,,,"Shape soft because it is quite liquidy, a little bit tubular"
+SCOOP25,7,08/12/2025,WHG52,WHG,28,0.166,F,3,No,Yes,,Yes,NA,NA,Orange,Pasty,Amorphous,No,No,No,Yes,No,Yes,Yes,,,,
+SCOOP25,7,08/12/2025,,WHG,25,0.128,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,Cancelled sample because the gut broke
+SCOOP25,7,08/12/2025,WHG54,WHG,31,0.266,F,3,No,Yes,,Yes,NA,NA,Orange,Pasty-liquid,Tubular,No,No,No,Yes,No,Yes,Yes,,,,
+SCOOP25,7,08/12/2025,WHG55,WHG,26,0.154,F,3,No,Yes,,Yes,NA,NA,Brown,Pasty,Amorphous,No,No,No,Yes,No,Yes,Yes,,,,
+SCOOP25,7,08/12/2025,WHG56,WHG,27,0.152,F,3,No,Yes,,Yes,NA,NA,Orange,Pasty,Tubular,No,No,No,Yes,No,No,Yes,,,,Some fibrous material
+SCOOP25,7,08/12/2025,WHG57,WHG,24,0.102,F,3,No,Yes,,Yes,NA,NA,Orange,Pasty-liquid,Amorphous,No,No,No,Yes,No,Yes,Yes,,,,
+SCOOP25,6,08/12/2025,WHG22,WHG,27,0.148,F,2,No,Yes,,Yes,NA,NA,Yellow-grey,Pasty,Tubular,No,Yes,No,No,No,Yes,Yes,,,,
+SCOOP25,6,08/12/2025,WHG23,WHG,29,0.19,M,2,No,Yes,,Yes,NA,NA,Silver-green,Pasty,Tubular,No,Yes,No,No,No,Yes,Yes,,,,Very small amount
+SCOOP25,6,08/12/2025,WHG24,WHG,23,0.114,F,2,No,Yes,,Yes,NA,NA,Yellow,Fibrous unidentified material,Amorphous,No,No,No,Yes,No,No,Yes,,,,
+SCOOP25,6,08/12/2025,,WHG,26,0.178,M,3,No,No,,,NA,NA,,,,,,,,,,,,,,"Very little, npo sample collected"
+SCOOP25,6,08/12/2025,WHG26,WHG,27,0.18,F,3,Yes,Yes,,Yes,NA,NA,Orange-Brown,Pasty,Tubular,No,Yes,No,No,No,No,Yes,,,,Parasite moving in the poo
+SCOOP25,6,08/12/2025,WHG27,WHG,28,0.24,F,3,No,Yes,,Yes,NA,NA,Orange-Brown,Pasty,Tubular,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,6,08/12/2025,,WHG,22,0.084,F,1,No,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,WHG28,WHG,22,0.11,F,2,No,Yes,,Yes,NA,NA,Silver-green,Pasty,Tubular,No,Yes,,,,,Yes,,,,
+SCOOP25,6,08/12/2025,WHG29,WHG,23,0.112,M,2,Yes,Yes,,Yes,NA,NA,White-brown,Pasty,Amorphous,No,No,No,Yes,No,No,Yes,,,,
+SCOOP25,6,08/12/2025,WHG30,WHG,28,0.174,F,3,No,Yes,,Yes,NA,NA,Yellow-silvery,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,,,,Mucous
+SCOOP25,6,08/12/2025,,WHG,22,0.106,F,3,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,WHG31,WHG,24,0.112,M,2,No,Yes,,Yes,NA,NA,Green,Pasty,Amorphous,No,No,No,Yes,No,No,Yes,,,,
+SCOOP25,6,08/12/2025,WHG32,WHG,23,0.094,M,2,No,Yes,,Yes,NA,NA,Green,Pasty,Tubular,No,Yes,No,No,No,No,Yes,,,,Some of poo is liquid
+SCOOP25,6,08/12/2025,WHG33,WHG,26,0.144,M,2,No,Yes,,Yes,NA,NA,White,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,6,08/12/2025,,WHG,24,0.126,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,WHG34,WHG,22,0.08,M,2,No,Yes,,Yes,NA,NA,Gold-green,Pasty,Tubular,No,Yes,No,No,No,No,Yes,,,,Very soft
+SCOOP25,6,08/12/2025,WHG35,WHG,28,0.182,M,2,No,Yes,,Yes,NA,NA,White,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,,,,
+SCOOP25,6,08/12/2025,WHG36,WHG,29,0.178,F,2,No,Yes,,Yes,NA,NA,Brown,Pasty-liquid,Amorphous,No,No,No,Yes,No,No,Yes,,,,Brown near rectum and brown-yellow further up gut
+SCOOP25,6,08/12/2025,WHG37,WHG,30,0.236,F,2,No,Yes,,Yes,NA,NA,Orange-red,Fibrous unidentified material,Tubular,No,No,No,Yes,No,No,Yes,,,,
+SCOOP25,6,08/12/2025,WHG38,WHG,23,0.088,M,2,No,Yes,,Yes,NA,NA,Gold,Smooth-pasty,Amorphous,No,Yes,No,No,No,No,Yes,,,,Mucous
+SCOOP25,6,08/12/2025,WHG39,WHG,22,0.084,M,2,No,Yes,,Yes,NA,NA,Yellow,Pasty-liquid,Amorphous,No,Yes,No,No,No,No,Yes,,,,Very little faecal matter
+SCOOP25,6,08/12/2025,WHG40,WHG,23,0.1,F,3,No,Yes,,Yes,NA,NA,Orange,Fibrous unidentified material,Tubular,No,No,No,Yes,No,No,Yes,,,,Also a bit pasty and a bit amorphous
+SCOOP25,6,08/12/2025,WHG20,WHG,39,0.414,F,3,No,Yes,,Yes,NA,NA,Yellow-white,Pasty,Amorphous,No,No,Yes,No,No,Yes,Yes,,,,Mucous
+SCOOP25,6,08/12/2025,WHG21,WHG,22,0.084,M,2,Yes,Yes,,Yes,NA,NA,Yellow,Pasty,Amorphous,No,No,Yes,No,No,Yes,Yes,,,,Bits of organic matter
+SCOOP25,6,08/12/2025,HOM14,HOM,19,0.062,M,1,Yes,Yes,,No,NA,NA,Orange-white,"Liquid, unidentified organic matter",Amorphous,No,No,Yes,No,No,Yes,No,,,,
+SCOOP25,6,08/12/2025,,HOM,11,0.01,,,,No,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,7,08/12/2025,WHG42,WHG,36,0.374,F,3,Yes,Yes,,Yes,NA,NA,Green/pink,"Smooth, slimy",Tubular,No,Yes,Yes,No,No,Yes,Yes,,,,
+SCOOP25,7,08/12/2025,WHG43,WHG,33,0.286,M,5,Yes,Yes,,Yes,NA,NA,Grey-pink,Pasty,Amorphous,No,No,Yes,No,No,Yes,Yes,,,,Liquid in upper gut
+SCOOP25,7,08/12/2025,HOM15,HOM,19,0.066,M,1,Yes,Yes,,Yes,NA,NA,Pink,Pasty,Amorphous,No,No,Yes,No,No,Yes,No,,,,
+SCOOP25,7,08/12/2025,HOM16,HOM,21,0.106,F,1,Yes,Yes,,Yes,NA,NA,White-orange,Smooth,Tubular,No,No,Yes,No,No,Yes,No,,,,Very little faecal matter
+SCOOP25,6,08/12/2025,,WHG,25,0.118,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,25,0.12,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,25,0.116,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.13,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.088,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.09,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.104,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,24,0.162,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,21,0.088,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,25,0.174,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.138,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.108,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,24,0.136,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.132,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,22,0.104,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,22,0.108,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.114,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.116,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,24,0.152,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.112,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,22,0.112,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,25,0.154,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,25,0.154,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.13,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,22,0.096,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.118,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,24,0.126,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,24,0.14,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,21,0.092,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.112,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,22,0.098,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.13,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,27,0.172,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,24,0.13,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,25,0.162,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,22,0.104,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,24,0.152,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.124,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,21,0.106,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,21,0.1,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,WHG,23,0.126,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,HKE21,HKE,52,1.072,F,4,,Yes,,Yes,NA,NA,Black,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,Some lumps
+SCOOP25,6,08/12/2025,,HKE,31,0.214,F,2,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,HKE,29,0.168,F,2,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,HKE22,HKE,37,0.316,F,2,,Yes,,Yes,NA,NA,Brown,Liquid,Amorphous,No,Yes,No,No,No,Yes,Yes,No,,,Fibrous
+SCOOP25,6,08/12/2025,,HKE,32,0.214,F,2,,No,,No,NA,NA,,,,,,,,,,,,,,Not Much high in the gut
+SCOOP25,6,08/12/2025,,HKE,32,0.216,F,2,,No,,No,NA,NA,,,,,,,,,,,,,,Not Much high in the gut
+SCOOP25,6,08/12/2025,HKE23,HKE,30,0.17,M,2,,Yes,,Yes,NA,NA,White/pale,Pasty,Amorphous,No,Yes,No,No,No,Yes,Yes,No,,,Fibrous
+SCOOP25,6,08/12/2025,,HKE,31,0.2,M ,2,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,HKE,30,0.184,F,2,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,HKE24,HKE,32,0.21,F,2,,Yes,,Yes,NA,NA,Green,Fibrous unidentified material,Amorphous,No,Yes,No,No,No,Yes,Yes,No,,,
+SCOOP25,6,08/12/2025,,HKE,28,0.158,M,2,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,HKE,31,0.202,M,2,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,HKE,30,0.168,F,2,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,HKE25,HKE,27,0.12,F,1,,Yes,,Yes,NA,NA,Grey,Liquid,Amorphous,No,Yes,No,No,No,Yes,Yes,No,,,
+SCOOP25,6,08/12/2025,HKE26,HKE,25,0.116,F,1,,Yes,,Yes,NA,NA,Brown,Liquid,Amorphous,No,Yes,No,No,No,Yes,Yes,No,,,
+SCOOP25,6,08/12/2025,HKE27,HKE,27,0.122,F,1,,Yes,,No,NA,NA,White,,,No,Yes,No,No,No,Yes,Yes,No,,,
+SCOOP25,6,08/12/2025,,HKE,26,0.114,F,1,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,HKE28,HKE,24,0.094,F,1,,Yes,,Yes,NA,NA,White,Liquid,Cylindrical,No,Yes,No,No,No,Yes,Yes,No,,,
+SCOOP25,6,08/12/2025,,HKE,18,0.042,F,1,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,HKE,18,0.05,M,1,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,HKE,15,0.024,U,1,,No,,No,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,POD10,POD,18,0.062,F,2,,Yes,,Yes,NA,NA,Cream,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,Copylight
+SCOOP25,6,08/12/2025,POD11,POD,16,0.044,F,2,,Yes,,Yes,NA,NA,Brown,Grainy,Amorphous,No,Yes,No,No,No,No,Yes,No,,,microscop
+SCOOP25,6,08/12/2025,,POD,16,0.042,,,,Unchecked,,,NA,NA,,,,,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,6,08/12/2025,POD12,POD,15,0.036,F,2,,Yes,,Yes,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,POD,16,0.04,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,POD,15,0.038,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,POD13,POD,14,0.028,F,2,,Yes,,Yes,NA,NA,Cream,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,copylight
+SCOOP25,6,08/12/2025,,POD,15,0.034,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,POD,14,0.034,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,POD,14,0.026,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,POD,14,0.026,,,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,POD14,POD,13,0.026,U,1,,Yes,,Yes,NA,NA,Cream,Liquid,Amorphous,Nos,Yes,No,No,No,No,Yes,No,,,copylight
+SCOOP25,6,08/12/2025,POD15,POD,12,0.018,M,1,,Yes,,Yes,NA,NA,pink/brown,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,copylight
+SCOOP25,6,08/12/2025,,POD,13,0.028,U,1,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,,POD,13,0.022,U ,1,,Unchecked,,,NA,NA,,,,,,,,,,,,,,
+SCOOP25,6,08/12/2025,POD16,POD,11,0.014,U,1,,Yes,,Yes,NA,NA,Orange,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,Yes,,,copylight
+SCOOP25,6,08/12/2025,,POD,9,0.008,U,1,,No,,,NA,NA,,,,,,,,,,,,,,barely any
+SCOOP25,7,08/12/2025,HKE29,HKE,35,0.258,M,2,,Yes,,Yes,NA,NA,Silver,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,"empty stomach, no sample taken from stomach"
+SCOOP25,7,08/12/2025,HKE30,HKE,29,0.16,F,2,,Yes,,Yes,NA,NA,,,,,Yes,No,No,No,No,Yes,No,,,stomach broke
+SCOOP25,7,08/12/2025,POD17,POD,15,0.038,F,2,,Yes,,Yes,NA,NA,Cream,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,upper guy dark orange
+SCOOP25,7,08/12/2025,POD18,POD,16,0.044,F,2,,Yes,,Yes,NA,NA,Brown,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,7,08/12/2025,,POD,15,0.034,M,2,,No,,,NA,NA,,,,,,,,,,,,,,not much
+SCOOP25,7,08/12/2025,POD19,POD,15,0.036,M,2,,Yes,,Yes,NA,NA,Cream,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,7,08/12/2025,,POD,11,0.012,U,1,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,,HOM,23,0.09,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,HOM17,HOM,19,0.052,,,,Yes,,Yes,NA,NA,Red,Gel,Amorphous,No,Yes,No,No,No,No,Yes,Yes,,,
+SCOOP25,7,08/12/2025,,HOM,18,0.05,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,,HOM,18,0.046,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,,HOM,18,0.056,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,,HOM,18,0.042,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,,HOM,17,0.038,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,,HOM,17,0.044,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,,HOM,17,0.034,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,,HOM,16,0.032,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,,HOM,17,0.038,,,,No,,,NA,NA,,,,,,,,,,,Yes,,,
+SCOOP25,7,08/12/2025,,WHG,26,,,,,Yes,,Yes,5.43,11.9,Pink,Smooth,Cylindrical,No,No,No,No,No,No,No,No,,,EP's foto phone
+SCOOP25,7,08/12/2025,,WHG,32,,,,,Yes,,Yes,3.31,11.9,Brown,Smooth,Cylindrical,No,No,No,No,No,No,No,No,,,EP's foto phone
+SCOOP25,7,08/12/2025,,WHG,27,,,,,No,,No,NA,NA,,,,,No,No,No,No,No,No,No,,,Poo high in gut
+SCOOP25,7,08/12/2025,,WHG,29,,,,,Yes,,Yes,4.22,11.9,Pink,Liquid,Amorphous,No,No,No,No,No,No,No,No,,,EP's foto phone
+SCOOP25,7,08/12/2025,,WHG,29,,,,,Yes,,Yes,5.63,11.9,Brown,Smooth,Cylindrical,No,No,No,No,No,No,No,No,,,EP's foto phone
+SCOOP25,2,10/12/2025,HKE31,HKE,71,2.3,M,2,Yes,Yes,,Yes,,,White,Fibrous unidentified material,Amorphous,No,Yes,No,No,No,Yes,Yes,No,2.11,4,faecal but high in gut
+SCOOP25,2,10/12/2025,HKE32,HKE,58,1.384,M,2,Yes,Yes,,Yes,,,Silver,Smooth,Amorphous,No,Yes,No,No,No,Yes,Yes,No,1.304,4,faecal but high in gut
+SCOOP25,2,10/12/2025,HKE33,HKE,22,0.068,F,1,Yes,Yes,,Yes,,,Black,Fibrous unidentified material/liquid,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.062,3,faecal but high in gut
+SCOOP25,2,10/12/2025,HOM18,HOM,29,0.204,M,1,,Yes,,Yes,,,Brown,Fibrous,Cylindrical,No,Yes,No,No,No,No,Yes,No,,,very small
+SCOOP25,2,10/12/2025,HOM19,HOM,23,0.094,F,1,,Yes,,Yes,,,Orange,gel,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,2,10/12/2025,HOM20,HOM,22,0.09,M,,,Yes,,Yes,,,Orange,gel,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,1,10/12/2025,HKE34,HKE,65,1.664,M,3,Yes,Yes,,Yes,,,Yellow,Pasty liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,1,10/12/2025,,HKE,76,3.08,F,5,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,,HKE,27,0.112,U,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,HKE35,HKE,29,0.148,M,2,,Yes,,Yes,,,Brown-green,liquid,cylindrical,No,Yes,No,No,No,Yes,Yes,No,0.14,3,Brown tube in green liquid
+SCOOP25,1,10/12/2025,,HKE,27,0.124,F,2,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,,POD,19,0.058,U,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,POD32,POD,18,0.058,U,,,Yes,,Yes,3.62,,,,,,,,,,,Yes,,,,"Shoot spatula, Maylis was wiggling the scalpel in the tube and AM thought it would give the poop an unfair advantage"
+SCOOP25,1,10/12/2025,,POD,18,0.066,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,,POD,19,0.074,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,,POD,17,0.038,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,POD33,POD,18,0.084,,,,Yes,,Yes,2.9,,,,,,,,,,,Yes,,,,
+SCOOP25,1,10/12/2025,,POD,16,0.042,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,POD34,POD,18,0.062,,,,Yes,,Yes,1.93,,,,,,,,,,,Yes,,,,
+SCOOP25,1,10/12/2025,,POD,16,0.038,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,,POD,16,0.048,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,,POD,17,0.046,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,,POD,16,0.05,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,HAD4,HAD,35,0.384,F,3,No,Yes,,Yes,,,Brown,Pasty,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.336,,"GB can't find, pasty at rectum, fibrous upper; a bit tubular"
+SCOOP25,1,10/12/2025,HAD5,HAD,27,0.194,M,2,No,Yes,,Yes,,,Brown,Loose Fibres,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.174,3,"Slimy, mucus"
+SCOOP25,1,10/12/2025,HAD6,HAD,29,0.232,M,2,,Yes,,Yes,,,Brown,Loose Fibres,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.208,3,sandy gritty
+SCOOP25,1,10/12/2025,,HAD,34,0.37,M,2,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,HAD7,HAD,26,0.186,F,2,,Yes,,Yes,,,Brown,Cohesive,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.166,1,very poopy
+SCOOP25,1,10/12/2025,HAD8,HAD,27,0.186,M,2,Yes,Yes,,Yes,,,Brown,Fibrous,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.166,3,
+SCOOP25,1,10/12/2025,HAD9,HAD,27,0.198,F,3,,Yes,,Yes,,,Brown,Liquid/Sand,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.174,2,
+SCOOP25,1,10/12/2025,,HAD,26,0.166,F,3,,No,,No,,,,,,,,,,,,,,,,last bit empty
+SCOOP25,1,10/12/2025,HAD10,HAD,26,0.184,M ,2,,Yes,,Yes,,,Brown,Fibrous,Amorphous,No,Yes,No,No,No,No,Yes,No,,,ophiura arms
+SCOOP25,1,10/12/2025,,HAD,27,0.254,M,2,,No,,,,,,,,,,,,,,,,,,not much faeces
+SCOOP25,1,10/12/2025,HAD11,HAD,25,0.172,M,2,Yes,Yes,,Yes,,,Brown green,Fibrous,Cylindrical,No,Yes,No,No,No,No,Yes,No,,,"huge poop, stomach broke"
+SCOOP25,1,10/12/2025,,HAD,26,0.148,F,2,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,1,10/12/2025,HAD12,HAD,25,0.148,F,3,,Yes,,Yes,,,Orange,Fibrous loose,Amorphous,NO,Yes,No,No,No,Yes,Yes,No,0.132,3,large
+SCOOP25,1,10/12/2025,WHG60,WHG,35,0.304,F,3,Yes,Yes,,Yes,,,Yellow green,Liquid,Amorphous,No,Yes,Yes,No,No,No,No,No,,,mucus
+SCOOP25,1,10/12/2025,WHG61,WHG,31,0.262,F,3,Yes,Yes,,Yes,,,Grey yellow,Fibrous unidentified,Tubular,No,Yes,Yes,No,No,No,No,No,,,mucus
+SCOOP25,1,10/12/2025,WHG62,WHG,34,0.338,F,3,Yes,Yes,,Yes,,,Grey ,Pasty,Tubular,No,Yes,Yes,No,No,No,No,No,,,"content in rectum  withouth mucous membrane, rest of gut content with mucus"
+SCOOP25,1,10/12/2025,POD29,POD,21,0.104,F,2,Yes,Yes,,Yes,,,Pink brown,Fibrous unidentified,Tubular,No,Yes,Yes,No,No,No,No,No,,,"forgot to write 29 on the label, check pictures"
+SCOOP25,1,10/12/2025,POD30,POD,20,0.086,F,2,Yes,Yes,,Yes,,,Pink brown,Granualar,Tubular,No,Yes,Yes,No,No,No,No,No,,,could be the orange brown we've written before
+SCOOP25,1,10/12/2025,POD31,POD,19,0.07,F,1,No,Yes,,Yes,,,Brown Red,Slimy,Amorphous,No,,Yes,No,No,No,No,No,,,mucus 
+SCOOP25,1,10/12/2025,WHG63,WHG,31,0.234,M,2,No,Yes,,Yes,,,Green,Fibrous unidentified,Amorphous,No,No,No,Yes,No,Yes,No,No,0.216,3,mucus
+SCOOP25,1,10/12/2025,WHG64,WHG,28,0.16,M,2,No,Yes,,Yes,,,Brown,Fibrous unidentified,Amorphous,No,No,No,Yes,No,Yes,No,No,0.148,2,mucus
+SCOOP25,1,10/12/2025,WHG65,WHG,30,0.194,M,2,No,Yes,,Yes,,,Orange brown,Pasty,Amorphous,No,No,No,Yes,No,Yes,No,No,0.178,3,mucus
+SCOOP25,1,10/12/2025,WHB4,WHB,26,0.124,M,2,Yes,Yes,,Yes,,,Black,Smooth,Tubular,No,Yes,No,No,No,No,Yes,No,,,fish full of parasites couldn't get stomach
+SCOOP25,1,10/12/2025,WHB5,WHB,29,0.148,F,2,Yes,Yes,,Yes,,,Red black,Smooth,Tubular,No,Yes,No,No,No,No,Yes,No,,,stomach found empty
+SCOOP25,1,10/12/2025,HOM21,HOM,17,0.042,F,1,Yes,Yes,,Yes,,,Orange,Gel,Amorphous,No,Yes,No,No,No,No,Yes,No,,,mucus maybe not poo It's too little
+SCOOP25,1,10/12/2025,HOM22,HOM,22,0.078,,,Yes,Yes,,Yes,,,White,Slimy,Amorphous,No,Yes,No,No,No,No,Yes,No,,,very litte and white
+SCOOP25,1,10/12/2025,NOP2,NOP,20,0.062,F,2,Yes,Yes,,Yes,,,Brown,Pasty,Tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,1,10/12/2025,NOP3,NOP,16,0.036,M,2,No,Yes,,Yes,,,Orange brown,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,1,10/12/2025,NOP4,NOP,11,0.012,U,1,Yes,Yes,,Yes,,,Orange brown,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,camera ran out of batteries
+SCOOP25,2,10/12/2025,HAD1,HAD,28,0.228,M,2,No,Yes,,Yes,,,Brown grey,liquid sandy,Amorphous,No,Yes,No,No,No,Yes,Yes,No,,2,
+SCOOP25,2,10/12/2025,HAD2,HAD,31,0.26,F,3,Yes,Yes,,Yes,,,Dark brown-black,"Liquid material, fibrous, loose",Tubular,Mucous,Yes,No,No,No,Yes,Yes,No,0.234,2,
+SCOOP25,2,10/12/2025,NOP1,NOP,16,0.03,F,2,No,Yes,,Yes,,,Orange-brown,Fibrous unidentified,Amorphous,No,Yes,No,No,No,No,Yes,No,,,Loose
+SCOOP25,2,10/12/2025,POD20,POD,16,0.046,M,2,No,Yes,,Yes,,,Pale green,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,2,10/12/2025,POD21,POD,19,0.078,F,2,No,Yes,,Yes,,,Brown-orange,Pasty,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.072,2,
+SCOOP25,2,10/12/2025,POD22,POD,17,0.048,M,2,No,Yes,,Yes,,,Brown-orange,Pasty,Tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,2,10/12/2025,POD27,POD,18,0.06,M,2,Yes,Yes,,Yes,,,Grey-brown,Smooth,Tubular,Mucous,Yes,Yes,No,No,No,No,No,,,"Also amorphous; was labelled POD21, photo still shows this label"
+SCOOP25,2,10/12/2025,POD28,POD,10,0.012,U,1,Yes,Yes,,Yes,,,Pink brown,Pasty,Amorphous,Mucous,No,Yes,No,No,No,No,No,,,"Was labelles POD22, photo shows this number"
+SCOOP25,2,10/12/2025,POD26,POD,17,0.058,M,2,No,Yes,,Yes,,,Pink brown,Pasty,,,Yes,Yes,No,No,No,No,No,,,"Colour pink brown was in rectum, rest was more red. Was labelled POD20, this is in the photo"
+SCOOP25,2,10/12/2025,WHG58,WHG,29,0.208,M,2,Yes,Yes,,Yes,,,Grey,Pasty,Tubular,Mucous,Yes,Yes,No,No,No,No,No,,,Also amorphous
+SCOOP25,2,10/12/2025,WHG31,WHG,31,0.224,F,3,Yes,Yes,,Yes,,,White-brown,Smooth with bit fibrous material,Tubular,Mucous,Yes,Yes,No,No,No,No,No,,,
+SCOOP25,2,10/12/2025,POD23,POD,16,0.04,M,2,No,Yes,,Yes,,,Orange,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,2,10/12/2025,POD24,POD,16,0.042,F,2,No,Yes,,Yes,,,Brown-orange,Pasty,Tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,2,10/12/2025,POD25,POD,16,0.046,,,,Yes,,,,,,,,,Yes,No,No,No,No,Yes,No,,,Not much
+SCOOP25,1,10/12/2025,HAD3,HAD,37,0.534,M,2,No,Yes,,Yes,,,Brown green,Pasty,Tubular,No,Yes,No,No,No,Yes,Yes,No,0.458,2,granular sandy poo
+SCOOP25,2,10/12/2025,LHOM5,HOM,24,0.116,F,2,,Yes,Yes,Yes,6.19,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,22,0.092,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,16,0.038,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,21,0.072,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,21,0.076,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,17,0.036,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,17,0.04,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,16,0.044,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,22,0.096,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,18,0.054,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,19,0.053,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,22,0.086,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,22,0.1,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,20,0.208,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,23,0.1,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,21,0.078,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,17,0.044,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,23,0.112,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,18,0.056,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,18,0.046,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,17,0.044,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,,HOM,16,0.036,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HOM3,HOM,29,0.249,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HOM4,HOM,18,0.058,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HOM5,HOM,19,0.052,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HOM6,HOM,18,0.05,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,HOM7,HOM,18,0.05,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,WHG13,WHG,24,0.108,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,WHG14,WHG,26,0.144,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,WHG15,WHG,26,0.12,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,WHG16,WHG,25,0.112,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,LWHG1,WHG,23,0.09,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,LWHG2,WHG,25,0.114,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,LWHG3,WHG,37,0.418,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,LHOM1,HOM,25,0.144,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,LHOM2,HOM,26,0.126,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,4,07/12/2025,LHOM3,HOM,38,0.47,,,,Unchecked,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,HAD11,HAD,25,0.142,F,2,No,Yes,,Yes,,,Brown,Sandy,Tubular,No,Yes,No,No,No,Yes,Yes,No,0.128,3,
+SCOOP25,8,11/12/2025,HAD12,HAD,26,0.166,F,2,No,Yes,,Yes,,,Brown,Sandy-granular,Tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HAD13,HAD,26,0.164,M,2,No,Yes,,Yes,,,Brown,Sandy-granular,Tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HAD14,HAD,27,0.174,F,2,No,Yes,,Yes,,,Brown,Sandy,Amorphous,No,Yes,No,No,No,No,Yes,No,,,Mucus
+SCOOP25,8,11/12/2025,HAD15,HAD,25,0.142,F,2,No,Yes,,Yes,,,Brown,Sandy-granular,Tubular,No,Yes,No,No,No,No,Yes,No,,,Mucus
+SCOOP25,8,11/12/2025,HAD16,HAD,31,0.286,F,4,No,Yes,,Yes,,,Brown,Sandy-granular,Amorphous,No,Yes,No,No,No,No,Yes,No,,,Mucus
+SCOOP25,8,11/12/2025,HAD17,HAD,25,0.134,F,2,No,Yes,,Yes,,,Brown,Sandy-granular,Amorphous,No,Yes,No,No,No,No,Yes,No,,,Mucus
+SCOOP25,8,11/12/2025,HAD18,HAD,41,0.712,M,3,No,Yes,,Yes,,,Brown,Liquid,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.614,3,Mucus
+SCOOP25,8,11/12/2025,HAD19,HAD,27,0.164,F,2,No,Yes,,Yes,,,Brown,Sandy,Amorphous,No,Yes,No,No,No,No,Yes,No,,,Big shell 
+SCOOP25,8,11/12/2025,HAD20,HAD,32,0.316,F,3,No,Yes,,Yes,,,Brown-green,Sandy,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.276,2,Mucus
+SCOOP25,8,11/12/2025,HAD21,HAD,36,0.47,M,3,No,Yes,,Yes,,,Brown-green,Fibrous-sandy-liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HAD22,HAD,33,0.304,F,4,No,Yes,,Yes,,,Dark brown,Sandy,Tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HAD23,HAD,33,0.324,F,3,No,Yes,,Yes,,,Brown,Smooth,Tubular,No,Yes,No,No,No,No,Yes,No,,,Lumps
+SCOOP25,8,11/12/2025,NOP6,NOP,20,0.068,F,2,Yes,Yes,,Yes,,,Brown ,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,NOP7,NOP,16,0.056,F,2,No,Yes,,Yes,,,Orange,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,WHG66,WHG,24,0.098,M,3,Yes,Yes,,Yes,,,Grey,Pasty,Tubular,No,Yes,Yes,No,No,No,No,No,,,
+SCOOP25,8,11/12/2025,WHG67,WHG,28,0.17,M,3,Yes,Yes,,Yes,,,Brown pink,Pasty,Tubular,No,Yes,Yes,No,No,No,No,No,,,Pasty with some unidentified matter
+SCOOP25,8,11/12/2025,POD35,POD,21,0.094,F,1,Yes,Yes,,Yes,,,Green brown,Pasty,Tubular,No,Yes,Yes,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,POD36,POD,17,0.056,F,1,Yes,Yes,,Yes,,,"Red, white",Granular,Tubular,Mucous,No,Yes,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,POD37,POD,16,0.044,M,2,Yes,Yes,,Yes,,,Brown pink,Pasty,Tubular,No,No,Yes,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HAD24,HAD,27,0.174,F,2,No,Yes,,Yes,3.97,10.6,Brown,"Sandy, liquid",Amorphous,No,No,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HAD25,HAD,26,0.152,M,2,No,Yes,,Yes,2.54,10.6,Brown,Sandy,Amorphous,no,No,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HAD26,HAD,26,0.15,M,2,No,Yes,,Yes,3.15,10.6,Brown,Sandy,Amorphous,no,No,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,,HKE,52,0.994,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,HKE36,HKE,64,2.306,F,4,Yes,Yes,,Yes,12.03,10.6,Silver green,Liquid,Amorphous,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HKE37,HKE,28,0.156,F,1,Yes,Yes,,Yes,13.16,10.6,White silver,Liquid smooth,Amorphous,Mucous,No,No,No,No,No,Yes,No,,,"Poo was high in gut, end was empty"
+SCOOP25,8,11/12/2025,HKE38,HKE,45,0.594,F,2,Yes,Yes,,Yes,12.15,10.6,Silver glitter,Liquid,Amorphous,Mucous,No,No,No,No,No,Yes,No,,,Sinking rate- some stayed in the water
+SCOOP25,8,11/12/2025,HKE39,HKE,61,1.674,F,5,Yes,Yes,,Yes,3.97,10.6,Green glitter,,,Mucous,No,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,,HKE,63,1.77,,,Yes,No,,,,,,,,,,,,,,,,,,"No poo, only in the upper gut"
+SCOOP25,8,11/12/2025,,HOM,21,0.07,M,2,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,HOM,21,0.08,M,1,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,HOM,23,0.098,U,1,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,HOM,19,0.05,F,1,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,HOM,17,0.042,U,1,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,HOM,20,0.06,U,1,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,HOM22,HOM,18,0.044,M,1,,Yes,,Yes,,,Light brown,Pasty,Tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,,HOM,18,0.052,F,1,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,HOM,19,0.048,M,1,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,HOM23,HOM,19,0.054,M,2,,Yes,,Yes,,,Yellow,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HOM24,HOM,22,0.078,F,1,,Yes,,Yes,,,Yelloe-white,Liquid,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HOM25,HOM,16,0.036,M,1,,Yes,,Yes,,,Grey-yellow-pink,Mucous,Amorphous,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,HOM26,HOM,22,0.08,M,2,,Yes,,Yes,,,White-yellow,Fibrous,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,8,11/12/2025,,POD,17,0.052,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,POD38,POD,15,0.032,,,,Yes,,Yes,,,,,,,No,No,No,No,No,,No,,,
+SCOOP25,8,11/12/2025,POD39,POD,18,0.056,,,,Yes,,Yes,4.2,10.6,,,,,No,No,No,No,No,,No,,,Split in two (sinking)
+SCOOP25,8,11/12/2025,POD40,POD,14,0.032,,,,Yes,,Yes,3.62,10.6,,,,,No,No,No,No,No,,No,,,Split in two (sinking)
+SCOOP25,8,11/12/2025,POD41,POD,17,0.052,,,,Yes,,Yes,3.35,10.6,,,,,No,No,No,No,No,,No,,,
+SCOOP25,8,11/12/2025,,POD,14,0.032,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,POD,19,0.064,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,POD,15,0.038,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,POD42,POD,19,0.066,,,,Yes,,Yes,2.63,10.6,,,,,No,No,No,No,No,,No,,,
+SCOOP25,8,11/12/2025,,POD,10,0.01,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,POD,11,0.012,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,POD43,POD,17,0.042,,,,Yes,,Yes,3.03,10.6,,,,,Yes,No,No,No,No,,No,,,Put altogether in one tube (all poos from all PODS in sink rate experiments)
+SCOOP25,8,11/12/2025,POD44,POD,14,0.03,,,,Yes,,Yes,2.66,10.6,,,,,Yes,No,No,No,No,,No,,,Put altogether in one tube (all poos from all PODS in sink rate experiments)
+SCOOP25,8,11/12/2025,,POD,15,0.032,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,POD,17,0.052,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,POD,14,0.03,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,HOM,22,0.082,,,,No,,Yes,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,HOM,19,0.054,,,,No,,Yes,,,,,,,,,,,,,,,,
+SCOOP25,8,11/12/2025,,HOM,24,0.12,,,,No,,Yes,,,,,,,,,,,,,,,,
+SCOOP25,9,12/12/2025,HOM27,HOM,24,0.112,F,2,Yes,Yes,,Yes,,,Yellow-green,Fibrous,Amorphous,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,9,12/12/2025,LIN1,LIN,49,0.634,M,,Yes,Yes,,Yes,,,Grey-green,Liquid with fibres,Amorphous,No,Yes,No,No,No,No,Yes,No,,,LAN code written in photo
+SCOOP25,9,12/12/2025,HOM28,HOM,20,0.068,M,,No,Yes,,Yes,9.06,11.3,White,Pasty,Tubular,No,Yes,No,No,No,No,Yes,Yes,,,"Squeezed out before dissecting; used end for sink rate, put all in ROC sample"
+SCOOP25,9,12/12/2025,,HOM,19,0.06,M,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,9,12/12/2025,HKE40,HKE,62,1.68,M,3,Yes,Yes,,Yes,3.19,11.5,Green,Smooth and liquid,Tubular,No,Yes,No,No,No,No,Yes,No,,,"Used lump for sink rate, mostly liquid for sample"
+SCOOP25,9,12/12/2025,WHB7,WHB,30,0.176,F,2,Yes,Yes,,Yes,5.87,11.5,Dark green,Fibrous cohesive,Tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,9,12/12/2025,HAD27,HAD,26,0.06,M,3,No,Yes,,Yes,,,Light brown,Granular sandy,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.158,3,
+SCOOP25,9,12/12/2025,POD45,POD,15,0.042,F,1,No,Yes,,Yes,,,Brown-white,Pasty and some unidentified organic matter,Tubular,No,Yes,Yes,No,No,No,No,No,,,
+SCOOP25,9,12/12/2025,POD46,POD,16,0.048,F,1,No,Yes,,Yes,,,White-brown,Fibrous unidentified,Tubular,No,Yes,Yes,No,No,No,No,No,,,
+SCOOP25,9,12/12/2025,POD47,POD,14,0.028,M,1,No,Yes,,Yes,,,Brown,Fibrous,Tubular,No,No,Yes,No,No,No,No,No,,,Basically empty
+SCOOP25,9,12/12/2025,LHOM91,HOM,22,0.08,,,,Yes,Yes,,3.5,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,POD48,POD,18,0.058,M,2,No,Yes,,Yes,,,Red-yellow,Granular,Amorphous,No,Yes,Yes,No,No,No,No,No,,,Samples weren't marked so guessing that they did ROC and dDNA
+SCOOP25,11,12/12/2025,WHG68,POD,20,0.078,F,1,No,Yes,,Yes,,,White-brown,Pasty with organic matter,Tubular,No,Yes,Yes,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,WHG69,BIB,19,0.076,M,2,No,Yes,,Yes,,,White-yellow,Liquid,Amorphous,No,Yes,Yes,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,HKE41,HKE,41,0.466,F,4,Yes,Yes,,Yes,,,Green-silver,Liquid and fibrous,Amorphous,no,Yes,No,No,No,Yes,Yes,No,0.408,4,
+SCOOP25,10,12/12/2025,,HAD,17,0.048,M,2,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HKE,30,0.18,M,3,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.039,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOMS1,HOM,17,0.092,,,,Yes,,Yes,15.94,11.5,Yellow,"Fibrous, liquid",Amorphous,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.04,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.034,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.036,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.03,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.028,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.034,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.036,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.038,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.026,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.04,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOMS2,HOM,17,0.03,,,,Yes,,Yes,11.29,11.5,Yellow,Gel,Amorphous,Mucous,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.04,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOMS3,HOM,17,0.034,,,,Yes,,Yes,10.54,11.5,Yellow,Gel,Amorphous,Mucous,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.032,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.056,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOMS4,HOM,17,0.04,,,,Yes,,Yes,9.81,11.5,Yellow,Gel,Amorphous,Mucous,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOMS5,HOM,17,0.034,,,,Yes,,Yes,17.93,11.5,Yellow,Gel,Amorphous,Mucous,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.042,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOMS6,HOM,17,0.04,,,,Yes,,Yes,13.13,11.5,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,18,0.044,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,18,0.042,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,18,0.044,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,18,0.048,F,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM29,HOM,17,0.044,F,1,,Yes,,Yes,,,Light Brown,Liquid,Amorphous,No,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.04,M,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,18,0.058,M,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM30,HOM,16,0.032,U,1,,Yes,,Yes,,,Yellow,Liquid,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,HOM31,HOM,17,0.05,M,1,Yes,Yes,,Yes,,,Yellow,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,,HOM,16,0.032,M,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM32,HOM,15,0.028,U,1,,Yes,,Yes,,,Yellow green,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,HOM33,HOM,18,0.044,M,3,,Yes,,Yes,,,Yellow,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,,HOM,18,0.048,M,2,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,16,0.036,M,2,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM34,HOM,16,0.036,M,2,,Yes,,Yes,,,White,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,HOM35,HOM,18,0.046,F,2,,Yes,,Yes,,,Yellow,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,HOM36,HOM,23,0.098,M,2,,Yes,,Yes,,,Yellow green,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,,HOM,19,0.05,F,2,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,15,0.032,M,2,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM37,HOM,19,0.056,F,2,,Yes,,Yes,,,Yellow white,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,,HOM,11,0.01,M,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM38,HOM,12,0.014,M,1,,Yes,,Yes,,,Yellow white,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,HOM39,HOM,19,0.046,F,1,,Yes,,Yes,,,Yellow,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,,HOM,15,0.028,U,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM40,HOM,15,0.032,M,1,,Yes,,Yes,,,,Liquid,,,Yes,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,12,0.014,M,2,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,12,0.014,U,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM41,HOM,12,0.014,U,1,,Yes,,Yes,,,Light Yellow,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,,HOM,13,0.018,U,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,13,0.014,U,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM42,HOM,11,0.012,U,1,,Yes,,Yes,,,Yellow,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,,HOM,11,0.012,U,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,11,0.012,U,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM43,HOM,11,0.01,U,1,,Yes,,Yes,,,Yellow,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,HOM44,HOM,13,0.02,M,1,,Yes,,Yes,,,Pink,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,HOM45,HOM,13,0.016,F,2,,Yes,,Yes,,,White,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,Very Little
+SCOOP25,10,12/12/2025,HOM46,HOM,13,0.016,U,1,,Yes,,Yes,,,White,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,HOM47,HOM,10,0.008,U,1,,Yes,,Yes,,,Pink,Liquid,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,,HOM,10,0.01,U,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOM48,HOM,10,0.008,U,1,,Yes,,Yes,,,Brown,Liquid,Tubular,,Yes,No,No,No,No,No,No,,,
+SCOOP25,10,12/12/2025,,HOM,18,0.048,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.044,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,16,0.036,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.044,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.044,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,16,0.038,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.046,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.044,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.044,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.046,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.052,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.044,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,16,0.03,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,16,0.032,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.042,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,16,0.038,,,,No,,,,,,,,,,,,,,,,,,Brownish transparent liquid in all
+SCOOP25,10,12/12/2025,,HOM,18,0.042,,,,No,,,,,,,,,,,,,,,,,,Greenish liquid
+SCOOP25,10,12/12/2025,,HOM,16,0.036,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,16,0.032,,,,No,,,,,,,,,,,,,,,,,,Brown liquid
+SCOOP25,10,12/12/2025,,HOM,18,0.046,,,,No,,,,,,,,,,,,,,,,,,White water gooey liquid
+SCOOP25,10,12/12/2025,,HOM,18,0.046,,,,No,,,,,,,,,,,,,,,,,,Green brown liquid
+SCOOP25,10,12/12/2025,,HOM,18,0.044,,,,No,,,,,,,,,,,,,,,,,,Brown liquid with black fleces
+SCOOP25,10,12/12/2025,,HOM,19,0.046,,,,No,,,,,,,,,,,,,,,,,,Green brown liquid
+SCOOP25,10,12/12/2025,,HOM,16,0.032,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOMS7,HOM,19,0.05,,,,Yes,,Yes,17.88,11.7,Green,Blob,Amorphous,,,,,,,,,,,
+SCOOP25,10,12/12/2025,HOMS8,HOM,18,0.04,,,,Yes,,Yes,20.93,11.9,Yellow,Gel,,,,,,,,,,,,half floated half broke off
+SCOOP25,10,12/12/2025,HOMS9,HOM,16,0.032,,,,Yes,,Yes,,11.9,,,,,,,,,,,,,,poo floated
+SCOOP25,10,12/12/2025,,HOM,16,0.04,,,,No,,,,,,,,,,,,,,,,,,Homs10?
+SCOOP25,10,12/12/2025,,HOM,16,0.038,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,16,0.038,,,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,LHOM101,HOM,18,0.044,,,,Yes,Yes,Yes,15.62,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,17,0.04,,,,No,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,10,12/12/2025,,HOM,21,0.082,,,,No,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HKE42,HKE,15,0.015,U,1,No,Yes,,Yes,,,Brown,Smooth,Tubular,No,Yes,No,No,No,No,Yes,No,,,it was labelled HKE41 in the photo and JR's samole
+SCOOP25,11,12/12/2025,HAD28,HAD,31,0.282,M,2,No,Yes,,Yes,,,Brown,Fibrous,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.254,2,"lump of crap claw, in liquid. Amorphous apart from the claw"
+SCOOP25,11,12/12/2025,HAD29,HAD,30,0.274,M,2,No,Yes,,Yes,,,Brown orange,Fibrous sandy,Amorphous,No,Yes,No,No,No,No,No,No,,,Coarse bits
+SCOOP25,11,12/12/2025,,HKE,32,0.21,F,2,No,No,,,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HKE,21,0.056,F,1,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HKE,14,0.02,U,1,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HKE,11,0.008,U,1,,No,,,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HAD30,HAD,32,0.318,M,3,No,Yes,,Yes,1.75,11.1,Brown chocolate,granular fibrous in liquid,tubular,No,Yes,No,No,No,Yes,Yes,No,0.282,2,
+SCOOP25,11,12/12/2025,HAD31,HAD,29,0.23,F,3,No,Yes,,Yes,2.88,11.4,Brown,fibrous sandy,Tubular and Amorophous,Mucus,Yes,No,No,No,Yes,Yes,No,0.202,1,
+SCOOP25,11,12/12/2025,HAD32,HAD,27,0.206,F,3,No,Yes,,Yes,1.62,11.4,Brown,Fibrous sandy,Tubular and Amorophous,Mucus,Yes,No,No,No,Yes,Yes,No,0.182,3,
+SCOOP25,11,12/12/2025,LHER1,HER,20,0.062,,,No,No,,,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,21,0.086,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM54,HOM,22,0.076,U,,,Yes,,Yes,,,Yellow,Jelly liuid,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,HOM55,HOM,22,0.08,F,,,Yes,,Yes,,,Yellow,Jelly with fibres,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,,HOM,19,0.054,F,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,23,0.098,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM56,HOM,25,0.128,,,,Yes,,Yes,,,Yellow orange,Jelly,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,,HOM,29,0.206,F,1,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM57,HOM,24,0.114,,,,Yes,,Yes,,,Yellow,Jelly,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,HOM58,HOM,25,0.126,,,,Yes,,Yes,,,Orange,fibrous bits,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,,HOM,23,0.104,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM59,HOM,26,0.142,F,1,,Yes,,Yes,,,Yellow,Jelly,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,,HOM,23,0.1,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM60,HOM,23,0.102,,,,Yes,,Yes,,,Yellow,Jelly,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,HOM61,HOM,21,0.076,,,,Yes,,Yes,,,Yellow,Jelly,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,,HOM,21,0.078,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,22,,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,22,,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,22,,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM62,HOM,20,0.068,F,,,Yes,,Yes,,,Yellow,Jelly,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,HOM63,HOM,21,0.076,F,,,Yes,,Yes,,,Yellow,Jelly,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,HOM64,HOM,23,0.102,,,,Yes,,Yes,,,Yellow,Jelly,Amorphous,Mucus,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,,HOM,20,0.078,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HAD33,HAD,20,0.07,U,1,No,Yes,,Yes,,,Brown,Sandy,Amorphous,Mucus,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,HAD34,HAD,19,0.062,U,1,No,Yes,,Yes,,,Red-brown,Granular,Tubular,,Yes,No,No,No,Yes,Yes,No,0.058,2,
+SCOOP25,11,12/12/2025,HAD35,HAD,19,0.072,F,1,No,Yes,,Yes,3.1,12.1,Brown,Sandy,Tubular,Mucus,Yes,No,No,No,Yes,Yes,No,0.066,2,
+SCOOP25,11,12/12/2025,HAD36,HAD,18,0.054,M,1,No,Yes,,Yes,,,Brown,Fibrous,Amorphous,Mucus,Yes,No,No,No,No,Yes,No,,,Shiny
+SCOOP25,11,12/12/2025,,HAD,17,0.056,M,2,,No,,,,,,,,,,,,,,,,,,"Empty at bottom, not much"
+SCOOP25,11,12/12/2025,HAD37,HAD,19,0.062,F,1,No,Yes,,Yes,,,Brown,"Liquid, bit fibrous",,Mucous,Yes,No,No,No,No,Yes,No,,,A bit shiny
+SCOOP25,11,12/12/2025,HAD38,HAD,17,0.042,F,1,No,Yes,,Yes,2.22,12.1,Light brown,Sandy,Amorphous,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,HAD39,HAD,16,0.042,F,1,No,Yes,,Yes,,,Orange-brown,Sandy fibrous,Tubular,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,HAD40,HAD,16,0.04,F,1,No,Yes,,Yes,,,Orange-brown,Sandy fibrous,Tubular,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,WHB8,WHB,29,0.17,F,2,Yes,Yes,,Yes,,,Green-brown,Pasty,Amorphous,Mucous,Yes,No,No,No,Yes,Yes,No,0.15,1,
+SCOOP25,11,12/12/2025,WHB9,WHB,30,0.182,F,2,Yes,Yes,,Yes,,,Green shiny,"Liquid, fibres in it",Amorphous,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,WHB10,WHB,32,0.228,F,2,Yes,Yes,,Yes,,,Green-silver,"Liquid, pasty lump",Amorphous,Mucous,Yes,No,No,No,Yes,Yes,No,0.19,1,
+SCOOP25,11,12/12/2025,,WHB,28,0.158,M,2,,No,,,,,,,,,,,,,,,,,,Empty lower part gut
+SCOOP25,11,12/12/2025,WHB11,WHB,28,0.16,M,2,No,Yes,,Yes,,,Green-white,"Fibres in liquid, few lumps",Amorphous,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,WHB12,WHB,27,0.13,,,Yes,Yes,,Yes,2.88,12.1,Green-brown,"Pasty, shiny",Separate lumps,Mucous,Yes,No,No,No,No,Yes,No,,,One pellet used for sink
+SCOOP25,11,12/12/2025,WHB13,WHB,28,0.134,F,2,Yes,Yes,,Yes,,,Green-shiny,Pasty,Tubular,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,WHB14,WHB,28,0.158,M,2,Yes,Yes,,Yes,3.29,12.3,Brown,Smooth,"Tubular, soft",Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,WHB15,WHB,27,0.13,F,2,Yes,Yes,,Yes,,,Brown,"Pasty, smooth",Tubular,,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,WHB16,WHB,29,0.16,F,2,Yes,Yes,,Yes,,,Grey-green,Pasty,Tubular,,Yes,No,No,No,No,Yes,No,,,Upper part amorphous and mucous
+SCOOP25,11,12/12/2025,WHB17,WHB,26,0.12,M,1,Yes,Yes,,Yes,5.84,12.2,Silver,Pasty,Amorphous,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,WHG70,WHG,27,0.16,M,3,No,Yes,,Yes,,,Brown-pink,Pasty,,,No,No,Yes,No,No,No,No,,,
+SCOOP25,11,12/12/2025,NOP8,NOP,18,0.04,,,Yes,Yes,,Yes,,,Red-brown,Pasty,Amorphous,,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,POD52,POD,15,0.034,M,1,No,Yes,,Yes,2.94,12.4,Brown,Pasty,Amorphous,,No,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,POD53,POD,12,0.018,F,1,No,Yes,,Yes,3.13,12.4,Orange,Pasty,Amorphous,,No,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,HOM50,HOM,40,0.588,M,4,Yes,Yes,,Yes,,,Yellow-orange,Jelly liquid,Amorphous,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,HOM51,HOM,38,0.466,F,4,Yes,Yes,,Yes,,,Yellow,Jelly,Amorphous,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,,HOM,21,0.066,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM52,HOM,20,0.062,U,,Yes,Yes,,Yes,,,Yellow-orange,Jelly,Amorphous,Mucous,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,,HOM,20,0.066,M,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,19,0.066,M,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM53,HOM,20,0.068,F,,,Yes,,Yes,,,Pale brown-yellow,Jelly-smooth,Amorphous,,Yes,No,No,No,No,No,No,,,
+SCOOP25,11,12/12/2025,BSS1,BSS,49,1.396,M,3,Yes,Yes,,Yes,,,White,Smooth bits,,Mucous,Yes,No,No,No,No,Yes,No,,,"Was brown poo on belly before, not collected"
+SCOOP25,11,12/12/2025,HOM80,HOM,18,0.045,,,,Yes,,Yes,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM81,HOM,18,0.048,,,,Yes,,Yes,8.6,,Yellow,Liquid,Amorphous,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM82,HOM,17,0.038,,,,Yes,,Yes,9.41,,Yellow,Liquid,Amorphous,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM83,HOM,23,0.094,,,,Yes,,Yes,10.15,,Yellow,Liquid,Amorphous,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM84,HOM,20,0.066,,,,Yes,,Yes,16.44,,Yellow,Liquid,Amorphous,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM85,HOM,22,0.084,,,,Yes,,Yes,6.78,,Yellow,Liquid,Amorphous,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM86,HOM,17,0.044,,,,Yes,,Yes,7.43,,Yellow,Liquid,Amorphous,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM87,HOM,18,0.044,,,,Yes,,Yes,14.06,,Yellow,Liquid,Amorphous,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,23,0.096,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,17,0.04,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,17,0.038,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOMS13,HOM,19,0.068,,,,Yes,,Yes,9.35,11.9,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,17,0.046,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,12,0.016,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,17,0.042,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOMS14,HOM,21,0.084,,,,Yes,,Yes,6.6,11.8,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,18,0.044,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,18,0.058,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,17,0.04,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,12,0.016,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,20,0.066,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM68,HOM,16,0.034,,,,Yes,,Yes,16.66,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM69,HOM,23,0.1,,,,Yes,,Yes,3.97,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM70,HOM,19,0.054,,,,Yes,,Yes,11.31,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM71,HOM,18,0.046,,,,Yes,,Yes,10.59,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM72,HOM,19,0.052,,,,Yes,,Yes,20.4,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM73,HOM,17,0.042,,,,Yes,,Yes,19.19,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM74,HOM,17,0.034,,,,Yes,,Yes,22.69,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM75,HOM,18,0.046,,,,Yes,,Yes,5.87,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,,HOM,18,0.044,,,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM76,HOM,16,0.032,,,,Yes,,Yes,12.81,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,hom77,HOM,17,0.04,,,,Yes,,Yes,12.09,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,hom78,HOM,16,0.036,,,,Yes,,Yes,17.4,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,hom79,HOM,18,0.05,,,,Yes,,Yes,13.44,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM100,HOM,16,0.038,,,,Yes,,Yes,7.47,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM101,HOM,17,0.04,,,,Yes,,Yes,8.46,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,HOM102,HOM,17,0.038,,,,Yes,,Yes,9.75,12.2,,,,,,,,,,,,,,
+SCOOP25,11,12/12/2025,POD49,POD,15,0.038,M,2,No,Yes,,Yes,,,Brown red,Pasty,Amorphous,No,Yes,Yes,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,POD50,POD,15,0.034,M,1,No,Yes,,Yes,,,Pink brown,Pasty,Amorphous,No,No,Yes,No,No,No,Yes,No,,,
+SCOOP25,11,12/12/2025,POD51,POD,12,0.02,F,1,No,Yes,,Yes,,,Black,Pasty,Tubular,Yes,No,Yes,No,No,No,Yes,No,,,"photo label says POD60 should be POD51, tubes and JR"
+SCOOP25,12,13/12/2025,WHG71,WHG,27,0.152,M,5,No,Yes,,Yes,,,brown white,Fibrous,tubular,No,Yes,Yes,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,WHG72,WHG,39,0.452,F,3,Yes,Yes,,Yes,,,Pink brown,granular with organics,tubular,No,Yes,Yes,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,POD54,POD,19,0.072,F,2,Yes,Yes,,Yes,,,White brown ,granular,tubular,mucous,Yes,Yes,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,POD55,POD,21,0.094,F,2,No,Yes,,Yes,,,Grey red,granular,tubular,no,Yes,Yes,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,POD56,POD,15,0.032,M,2,Yes,Yes,,Yes,,,Brown red,fibrous,tubular,yes,No,Yes,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,HAD46,HAD,30,0.214,M,3,Yes,Yes,,Yes,3.37,12.8,,,,,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,HAD44,HAD,34,0.358,F,3,No,Yes,,Yes,3.53,12.9,Brown,granular,Amorphous,no,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,HAD45,HAD,33,0.362,M,3,Yes,Yes,,Yes,,,Yellow green,liquid fibrous,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.328,2,very little
+SCOOP25,12,13/12/2025,HKE43,HKE,23,0.08,F,1,No,Yes,,Yes,6.97,12.9,Green,pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,broke into pieces
+SCOOP25,13,13/12/2025,WHB21,WHB,16,0.026,M,1,Yes,Yes,,Yes,5.06,11.9,Brown,pasty,tubular,Mucus,Yes,No,No,No,Yes,Yes,No,0.021,1,
+SCOOP25,13,13/12/2025,HKE44,HKE,27,0.13,F,1,Yes,Yes,,Yes,,,White grey silver,smooth liquid,Amorphous,Mucus,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,WHB18,WHB,28,0.164,M,2,Yes,Yes,,Yes,18.62,12.9,Brown-green,Pasty,Tubular,No,Yes,No,No,No,No,Yes,No,,,Sinking bit was mucous amorphous
+SCOOP25,12,13/12/2025,WHB19,WHB,32,0.23,F,2,Yes,Yes,,Yes,4.1,12.9,Light brown,Pasty,Tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,WHB20,WHB,28,0.144,M,2,Yes,Yes,,Yes,,,Brown,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,Rectum was empty
+SCOOP25,12,13/12/2025,HAD41,HAD,38,0.558,M,3,No,Yes,,Yes,3.86,12.9,Brown,Sandy,Amorphous-tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,HAD42,HAD,31,0.278,M,3,No,Yes,,Yes,2.25,12.9,Brown-orange,Sandy pasty,Tubular,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,HAD43,HAD,38,0.528,M,3,Yes,Yes,,Yes,4.43,12.9,Brown,Granular,Amorphous,No,Yes,No,No,No,Yes,Yes,No,0.466,3,
+SCOOP25,12,13/12/2025,HOM65,HOM,26,0.138,M,4,Yes,Yes,,Yes,,,Yellow,Liquid,Amorphous,No,Yes,No,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,HOM66,HOM,17,0.04,F,1,Yes,Yes,,Yes,,,Light brown,Liquid-slimy,Amorphous,No,Yes,No,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,HOM67,HOM,17,0.038,M,1,Yes,Yes,,Yes,,,Black,Pasty,Tubular,No,Yes,No,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,WHG73,WHG,29,0.19,F,3,Yes,Yes,,Yes,,,Grey,Pasty,Amorphous,No,No,No,Yes,No,No,No,No,,,
+SCOOP25,12,13/12/2025,NOP9,NOP,17,0.038,M,1,Yes,Yes,,Yes,,,Red-brown,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,NOP10,NOP,19,0.058,F,1,Yes,Yes,,Yes,,,Light brown,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,12,13/12/2025,LHOM121,HOM,18,0.05,M,2,,,Yes,,19.53,,,,,,,,,,,,,,,
+SCOOP25,12,13/12/2025,LHOM122,HOM,21,0.072,M,2,,,Yes,,12.44,,,,,,,,,,,,,,,
+SCOOP25,12,13/12/2025,,TBR,50,0.946,,,,,Yes,,,,,,,,,,,,,,,,,
+SCOOP25,13,13/12/2025,HKE47,HKE,26,0.136,M,2,Yes,Yes,,Yes,9.15,12.2,Cream glitter shiny,Liquid,Amorphous,Mucous,Yes,No,No,No,Yes,Yes,No,0.104,2,
+SCOOP25,13,13/12/2025,HKE48,HKE,25,0.096,M,2,Yes,Yes,,Yes,3.87,12.2,Yellow,Fibrous,Tubular and Amorophous,No,Yes,No,No,No,No,Yes,No,,,Cut stomach
+SCOOP25,13,13/12/2025,HKE49,HKE,21,0.058,M,1,Yes,Yes,,Yes,9.12,12.2,Brown,Fibrous,Lumps,Mucous,Yes,No,No,No,Yes,Yes,No,0.054,3,
+SCOOP25,13,13/12/2025,HKE50,HKE,82,3.868,F,4,Yes,No,,Yes,,,Green,,,,,,,,,,,,,"Green mucous, did not collect sample"
+SCOOP25,13,13/12/2025,HKE44,HKE,12,0.01,U,1,No,Yes,,Yes,7.56,12.9,Orange,Pasty,Amorphous,No,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,13,13/12/2025,HKE45,HKE,28,0.136,F,1,Yes,Yes,,Yes,8.54,12.1,Yellow,Smooth,Tubular,Mucous,Yes,No,No,No,Yes,Yes,No,0.128,3,
+SCOOP25,13,13/12/2025,HKE46,HKE,29,0.15,F,1,Yes,Yes,,Yes,6.67,12.1,Orange,Fibrous,Amorphous,Mucous,Yes,No,No,No,No,Yes,No,,,
+SCOOP25,13,13/12/2025,POD67,POD,16,0.038,M,1,No,Yes,,Yes,,,White-yellow,Fibrous,Tubular,No,No,Yes,No,No,No,No,No,,,
+SCOOP25,13,13/12/2025,POD68,POD,17,0.056,F,2,Yes,Yes,,Yes,,,Brown-red,Granular,Tubular,No,Yes,Yes,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,POD57,POD,18,0.062,F,2,,Yes,,Yes,3.19,12.9,Cream,Pasty,Tubular,No,No,No,No,No,Yes,No,No,0.054,1,
+SCOOP25,12,13/12/2025,POD58,POD,19,0.064,M,2,Yes,Yes,,Yes,4.03,12.9,Brown,Pasty,Tubular,No,Yes,No,No,No,Yes,No,No,0.06,3,
+SCOOP25,12,13/12/2025,,POD,16,0.04,M,2,,No,,No,,,,,,,,,,,,,,,,
+SCOOP25,12,13/12/2025,POD59,POD,16,0.048,M,2,Yes,Yes,,Yes,,,Brown,Pasty,,,Yes,No,No,No,No,No,No,,,Poo high up
+SCOOP25,12,13/12/2025,POD60,POD,15,0.034,M,2,,Yes,,Yes,6.62,12.9,Red,Pasty,Amoprphous,No,No,No,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,POD61,POD,15,0.042,M,2,,Yes,,Yes,6.41,12.9,Brown,Pasty,Tubular,Mucous,No,No,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,POD62,POD,16,0.042,M,2,,Yes,,Yes,4.12,12.9,Brown-orange,Pasty,Tubular,No,Yes,No,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,POD63,POD,16,0.046,M,2,,Yes,,Yes,9.85,12.1,Red-brown,Pasty,Tubular,No,Yes,No,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,POD64,POD,16,0.068,M,2,,Yes,,Yes,7.87,12.9,Brown-orange,Pasty,Tubular,Mucous,Yes,No,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,POD65,POD,17,0.056,F,2,,Yes,,Yes,6.44,12.5,Brown-orange,Pasty,Amorphous,Mucous,Yes,No,No,No,No,No,No,,,
+SCOOP25,12,13/12/2025,POD66,POD,17,0.054,F,2,,Yes,,Yes,2.5,12.8,Brown,Pasty,Tubular-amorphous,,Yes,No,No,No,No,No,No,,,

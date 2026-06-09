@@ -1,0 +1,44 @@
+---
+title: "Research Survey Report"
+author: "Paula Silvar"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r,include=FALSE}
+# set wd and packages
+library(ggplot2);theme_set(theme_minimal())
+setwd("~/MI Ship-time/SCOOP 2025/SCOOP_St Andrews")
+```
+
+## SCOOP 
+
+
+```{r, include=FALSE}
+# import data base
+data.survey <- read.csv("SCOOP_fish_data.csv")
+data.samples <- read.csv("SCOOP_samples.csv")
+```
+
+```{r}
+data <- merge(data.samples, data.survey, all.x = TRUE)
+
+ggplot(subset(data, !SpeciesCode %in% c("BSS", "LIN", "POL", "NOP") & !is.na(SpeciesCode)), aes(Weight,Length))+
+  geom_point()+
+  facet_wrap(vars(SpeciesCode), scales = "free")
+```
+
+
+
+
+
+
+
