@@ -1,0 +1,347 @@
+---
+title: "Survey Carbon Data"
+author: "Paula"
+date: "2024-11-26"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# load data
+pel <- read.csv("Pelagics.csv")
+dem <- read.csv("Demersal_color.csv")
+
+# packages
+library(ggplot2)
+library(forcats)
+theme_set(theme_classic())
+library(ggridges)
+library(viridis)
+```
+
+# Paper figures 
+
+Sampling was conducted aboard the _R/V Celtic Explorer_, during IGFS leg 2 and 3 from November to December 2024.  
+Fish were dead after the haul and the samples were taken after. 
+Strip method, where pressure is applied along the ventral side of the fish, from the gut to the anus (Windell et al., 1978, Martin MS). 
+Disecting the lower part of the gut and squeezing the faecal matterial out. 
+
+## Sinking rate
+
+Sinking rate was measured on the boat.Sinking rates were determined for x individual faecal matter aboard ship under calm sea state using a cylinder of 30 cm and a stopwatch. The cylinder was marked with color tape to set the water level, the start of the measuring (10 cm) and the end of the measurement (25 cm). Faecal matter was photographed in a Petry dish with sea water and then it was released and timed while falling a distance of 15 cm. The cylinder was filled with _in situ_ sea water and the temperature of the cylinder did not change over the course of the sinking rate experiment.  
+
+The graduated cylinder was place on a flat surface and filled with in situ sea water. The sinking rate over 15 cm was measured. The samples were allowed to sink for at least 10 cm before initiating the measurement.When samples broke into two or more pieces, the descent of the larger piece was 
+measured.
+
+We measure the seconds per 15 cm with was estimate the sinking rate in $m\ d^{-1}$. 
+
+$$w\ (m\ d^{-1}) = \frac{1}{X\ sec} 15\ cm \frac{1\ m}{100\ cm} \frac{86400\ sec}{1\ day} $$
+
+
+### Remineralisation Length Scale RLS (m)
+
+$$Z = w/k$$
+where $w$ is the sinking rate of particle ($m\ d^{-1}$) and $k$ is the turnover rate of POC ($d^{-1}$). 
+
+```{r, include = FALSE}
+dem$Sinkrate <- 1/dem$Seconds*(15*86400/100)
+pel$Sinkrate <- 1/pel$Seconds*(15*86400/100)
+```
+
+
+### Tables
+
+||Haddock|Whiting|Atlantic Cod|Hake|
+|--------|-----------------------|----------------------------|-----------------------|----------------------------|
+|Mean(SD)|`r round(mean(dem[dem$Species == "HAD", "Sinkrate"], na.rm = TRUE),0)`(`r round(sd(dem[dem$Species == "HAD", "Sinkrate"], na.rm = TRUE), 0)`)|`r round(mean(dem[dem$Species == "WHG", "Sinkrate"], na.rm = TRUE),0)`(`r round(sd(dem[dem$Species == "WHG", "Sinkrate"], na.rm = TRUE), 0)`)|`r round(mean(dem[dem$Species == "COD", "Sinkrate"], na.rm = TRUE),0)`(`r round(sd(dem[dem$Species == "COD", "Sinkrate"], na.rm = TRUE), 0)`)|`r round(mean(dem[dem$Species == "HKE", "Sinkrate"], na.rm = TRUE),0)`(`r round(sd(dem[dem$Species == "HAKE", "Sinkrate"], na.rm = TRUE), 0)`)|
+|Range|`r round(range(dem[dem$Species == "HAD", "Sinkrate"], na.rm = TRUE)[1], 0)`-`r round(range(dem[dem$Species == "HAD", "Sinkrate"], na.rm = TRUE)[2], 0)`|`r round(range(dem[dem$Species == "WHG", "Sinkrate"], na.rm = TRUE)[1], 0)`-`r round(range(dem[dem$Species == "WHG", "Sinkrate"], na.rm = TRUE)[2], 0)`|`r round(range(dem[dem$Species == "COD", "Sinkrate"], na.rm = TRUE)[1], 0)`-`r round(range(dem[dem$Species == "COD", "Sinkrate"], na.rm = TRUE)[2], 0)`|`r round(range(dem[dem$Species == "HKE", "Sinkrate"], na.rm = TRUE)[1], 0)`-`r round(range(dem[dem$Species == "HKE", "Sinkrate"], na.rm = TRUE)[2], 0)`|
+
+
+||Sprat|Pilchard|Mackarel|Horse mackarel|Blue whiting|Herring|
+|--------|---------|------------|-----------|------------|--------------|-----------|
+|Mean(SD)|`r round(mean(pel[pel$Species == "SPR", "Sinkrate"]),0)`(`r round(sd(pel[pel$Species == "SPR", "Sinkrate"]), 0)`)|`r round(mean(pel[pel$Species == "PIL", "Sinkrate"]),0)`(`r round(sd(pel[pel$Species == "PIL", "Sinkrate"]), 0)`)|`r round(mean(pel[pel$Species == "MAC", "Sinkrate"]),0)`(`r round(sd(pel[pel$Species == "MAC", "Sinkrate"]), 0)`)|`r round(mean(pel[pel$Species == "HOM", "Sinkrate"]),0)`(`r round(sd(pel[pel$Species == "HOM", "Sinkrate"]), 0)`)|`r round(mean(pel[pel$Species == "WHB", "Sinkrate"]),0)`(`r round(sd(pel[pel$Species == "WHB", "Sinkrate"]), 0)`)|`r round(mean(pel[pel$Species == "HER", "Sinkrate"]),0)`(`r round(sd(pel[pel$Species == "HER", "Sinkrate"]), 0)`)|
+|Range| `r round(range(pel[pel$Species == "SPR", "Sinkrate"])[1], 0)`-`r round(range(pel[pel$Species == "SPR", "Sinkrate"])[2], 0)`|`r round(range(pel[pel$Species == "PIL", "Sinkrate"])[1], 0)`-`r round(range(pel[pel$Species == "PIL", "Sinkrate"])[2], 0)`|`r round(range(pel[pel$Species == "MAC", "Sinkrate"])[1], 0)`-`r round(range(pel[pel$Species == "MAC", "Sinkrate"])[2], 0)`|`r round(range(pel[pel$Species == "HOM", "Sinkrate"])[1], 0)`-`r round(range(pel[pel$Species == "HOM", "Sinkrate"])[2], 0)`|`r round(range(pel[pel$Species == "WHB", "Sinkrate"])[1], 0)`-`r round(range(pel[pel$Species == "WHB", "Sinkrate"])[2], 0)`|`r round(range(pel[pel$Species == "HER", "Sinkrate"])[1], 0)`-`r round(range(pel[pel$Species == "HER", "Sinkrate"])[2], 0)`|
+
+
+## Plot sinking rates
+
+```{r, fig.width = 10, warning = FALSE}
+#library(viridis)
+#viridis(10, option = "H")
+common <- c("CollectorID", "Haul", "Species", "Seconds", "Sinkrate")
+data_all <- rbind(dem[, common],pel[,colnames(pel) %in% common])
+
+range(data_all$Sinkrate, na.rm = TRUE)
+
+ggplot(data_all, aes(x = Sinkrate, y = fct_reorder(Species, Sinkrate), fill = fct_reorder(Species, Sinkrate), color = fct_reorder(Species, Sinkrate)))+
+  geom_boxplot(alpha = .7)+
+  #geom_density_ridges(alpha = .75)+  
+  scale_fill_viridis_d(option = "turbo")+
+  scale_color_viridis_d(option = "turbo")+
+  theme(legend.position = "")+
+  labs(y = "")
+
+## Information data
+info <- read.csv("stocks_info.csv")
+data_info <-merge(data_all, info)
+
+
+## Ridges plot
+ggplot(data_info, aes(x = Sinkrate, y = fct_reorder(Name, Sinkrate, "mean"), fill = fct_reorder(Name, Sinkrate, "mean"), color = fct_reorder(Name, Sinkrate, "mean")))+
+  #geom_boxplot(alpha = .4)+
+  geom_density_ridges(alpha = .75)+  
+  scale_fill_viridis_d(option = "turbo")+
+  scale_color_viridis_d(option = "turbo")+
+  theme(legend.position = "")+
+  labs(y = "", x = "Sinking rate (m/d)")
+
+```
+
+
+## Differences between sinking rates
+
+The p-value is lower than the usual threshold of 0.05. You are confident to say there is a statistical difference between the groups. 
+
+```{r}
+# Test homogeneity of variances
+library(car)
+# Test homogeneity of variances
+bartlett.test(Sinkrate~Species, data_info) # pvalue<0.05 - not all the groups have the same variance
+# Test equality of variances
+leveneTest(Sinkrate~Species, data_info)# pvalue<0.05 - differences in sample variances
+
+# Test normal
+by(data_info$Sinkrate , data_info$Species, shapiro.test) # had,hke and hke are not normally distributed
+hist(data_info$Sinkrate)
+shapiro.test(data_info$Sinkrate) # Data is not normal
+
+#########-----------------------------###########
+# For non Normal
+kruskal.test(Sinkrate~Species, data_info) # there is significant difference between the groups p <0.05
+# posthoc
+library(FSA)
+dunnTest(Sinkrate~Species, data_info, method = "bonferroni")
+
+#########------------------------------############
+# ANOVA - for normal and equal variances
+anova<- aov(Sinkrate~Species, data_info)
+summary(anova)
+# posthoc
+TukeyHSD(anova)
+```
+
+
+### Sinking rate plot vs length
+```{r}
+ggplot(data = subset(dem, Species %in% c("HAD", "WHG", "HKE", "COD")), mapping = aes(Size, Sinkrate, fill = Species, colour = Species))+
+  geom_point()+
+  geom_smooth(method = "lm")+
+  scale_color_manual(values = c("#FABA39FF" ,"#F66B19FF", "#CB2A04FF", "#7A0403FF"),  labels = c("Hake", "Whiting", "Haddock", "Cod"))+
+  scale_fill_manual(values = c( "#FABA39FF" ,"#F66B19FF", "#CB2A04FF", "#7A0403FF"),  labels = c("Hake", "Whiting", "Haddock", "Cod"))+
+  labs(y = "Sinking rate (m/d)", x = "Fish length (cm)", col = "Species")
+
+
+```
+Correlation sinking rate with lenght of the fish. 
+
+```{r}
+cordata <- subset(dem, Species %in% c("HAD", "WHG", "HKE", "COD"))
+cordata <- subset(dem, Species %in% c("HAD"))
+cor(cordata$Size, cordata$Sinkrate, use = "complete.obs")
+cor.test(cordata$Size, cordata$Sinkrate, method = "pearson")
+## Week relationship significant only for haddock
+```
+
+## Sinking rate effects
+
+
+Diet and whatever,...
+
+```{r}
+library(reshape2)
+
+dietp <- read.csv("./Diet_Data_Thompson/diet_proportions.csv")
+diet <- dcast(dietp, Latin~prey_funcgrp, value.var = "propw")
+
+diet[is.na(diet)] <- 0
+info <- merge(info, diet)
+```
+
+
+
+```{r}
+library(reshape2)
+vard <- c("Name", "fish", "benthos", "zooplankton", "other", "nekton")
+dietdata <- info[, names(info) %in% vard]
+#dietdata<-dietdata[!is.na(dietdata$Benthos),]
+
+dietdata <- melt(dietdata, id.vars = c("Name"))
+dietdata$`Prey weight` <- as.numeric(dietdata$value)
+
+ggplot(dietdata, aes(fct_relevel(variable, c("fish", "benthos",  "other","zooplankton", "neckton")), fct_relevel(Name, c("Sprat", "Pilchard","Horse mackerel",  "Mackerel",  "Blue whiting", "Herring", "Hake", "Whiting",  "Haddock","Cod")), fill = `Prey weight`))+
+  geom_tile()+
+  scale_fill_gradient2(mid = "#00a38c", midpoint = .5,low =  "white",  high = "#004d57", na.value = "black",labels = scales::percent)+
+  labs( y = "", x = "Prey functional group")
+```
+
+
+
+```{r}
+data_eff<-data_info[!is.na(data_info$Sinkrate),]
+
+ggplot( data_eff, mapping = aes(LM, Sinkrate))+
+  geom_point(aes(colour = fct_reorder(Name, Sinkrate, "mean")))+
+  geom_smooth(method = "glm")+
+   scale_color_viridis_d(option = "turbo")+
+  labs(x = "Length at maturity", y = "Sinking rate m/d", color = "")
+
+ggplot(data = data_eff, aes(Diet, Sinkrate))+
+   geom_point(aes(color = fct_reorder(Name, Sinkrate, "mean")))+
+  geom_boxplot(fill = "grey", alpha = .5)+
+   scale_color_viridis_d(option = "turbo")+
+   labs(x = "Main diet item", y = "Sinking rate m/d", fill = "", color = "")
+
+ggplot(data = data_eff, aes( fct_reorder(SizeGuild2, Sinkrate, "mean"), Sinkrate))+
+   geom_jitter(aes(color = fct_reorder(Name, Sinkrate, "mean")))+
+  geom_boxplot(fill = "grey", alpha = .5)+
+   scale_color_viridis_d(option = "turbo")+
+   labs(x = "", y = "Sinking rate m/d", fill = "", color = "")+
+  coord_flip()
+
+ggplot(data = data_eff, aes( fct_reorder(FisheriesGild, Sinkrate, "mean"), Sinkrate))+
+   geom_jitter(aes(color = fct_reorder(Name, Sinkrate, "mean")))+
+  geom_boxplot(fill = "grey", alpha = .5)+
+   scale_color_viridis_d(option = "turbo")+
+   labs(x = "", y = "Sinking rate m/d", fill = "", color = "")+
+  coord_flip()
+
+
+
+lmod <- lm(data = data_eff, Sinkrate~LM+Diet)
+summary(lmod)
+plot(lmod)
+
+
+lmod <- lm(data = data_eff, Sinkrate~SizeGuild2)
+summary(lmod)
+plot(lmod)
+
+
+
+hist(data_eff$Sinkrate)
+
+mod <- glm(data = data_eff, Sinkrate~SizeGuild2+Species, family = "Gamma")
+plot(mod)
+summary(mod)
+```
+
+```{r, fig.height=10, fig.width=20}
+library(gbm)
+
+datamodel <- data_eff[,-c(1:4)]
+
+datamodel$Fish <- as.numeric(datamodel$Fish)
+var <- c("Name", "FisheriesGild", "Guild", "SizeGuild2","SizeGuild", "TrophicGuild", "MainDiet", "Diet")
+datamodel[, colnames(datamodel) %in% var] <-lapply(datamodel[, colnames(datamodel) %in% var], as.factor)
+
+varmodel <- c("Sinkrate"  , "Name", "FisheriesGild","SizeGuild2", "TrophicGuild" , "LM", "TL_patel"   ,"Tropic.level" ,  "Diet"  , "Fish",  "Benthos",  "Zooplankton", "Other", "Necton")
+datamodel <- datamodel[, colnames(datamodel) %in% varmodel] 
+
+gbm_model <- gbm(
+  formula = Sinkrate ~ ., 
+  data = datamodel, 
+  distribution = "gaussian", 
+  n.trees = 5000, 
+  interaction.depth = 4, 
+  shrinkage = 0.01,
+  cv.folds = 5)
+
+
+summary(gbm_model, las = 1)
+plot(gbm_model) 
+```
+
+
+
+```{r}
+data_eff$Fish<-as.numeric(data_eff$Fish) 
+lmod <- lm(data = data_eff, Sinkrate~LM+Diet+Fish+Benthos+Necton)
+lmod <- lm(data = data_eff, Sinkrate~LM+Benthos)
+summary(lmod)
+plot(lmod)
+
+hist(data_eff$Sinkrate)
+
+mod <- glm(data = data_eff, Sinkrate~LM+Benthos+Fish, family = "Gamma")
+plot(mod)
+summary(mod)
+```
+
+
+```{r}
+ggplot(data = data_info, mapping = aes(FisheriesGild, Sinkrate, fill = FisheriesGild, colour = FisheriesGild))+
+  geom_boxplot(alpha = 0.7)+
+  geom_violin(alpha = 0.7)+
+  theme(legend.position = "")+
+  labs(x = "", y = "Sinking rate m/d")
+ggplot(data = data_info, mapping = aes(TrophicGuild, Sinkrate, fill = FisheriesGild, colour = FisheriesGild))+
+  geom_boxplot(alpha = 0.7)+
+  geom_violin(alpha = 0.7)+
+  theme(legend.position = "")+
+  labs(x = "", y = "Sinking rate m/d")
+ggplot(data = data_info, mapping = aes(MainDiet, Sinkrate, fill = MainDiet, colour = MainDiet))+
+  geom_boxplot(alpha = 0.7)+
+  geom_violin(alpha = 0.7)+
+  theme(legend.position = "")+
+  labs(x = "", y = "Sinking rate m/d")
+```
+```{r}
+ggplot(data = data_info, mapping = aes(LM, Sinkrate))+
+  geom_point(aes(colour = Species))+
+  geom_smooth(method = "lm")+
+  labs(x = "", y = "Sinking rate m/d")
+ggplot(data = data_info, mapping = aes(LM, Sinkrate))+
+  geom_point(aes(colour = MainDiet))+
+  geom_smooth(method = "lm")+
+  labs(x = "", y = "Sinking rate m/d")
+
+ggplot(data = data_info, mapping = aes(LM, Sinkrate))+
+  geom_point(aes(colour = FisheriesGild))+
+  #geom_boxplot(aes(colour = Species))+
+  geom_smooth(method = "lm")+
+  labs(x = "", y = "Sinking rate m/d")
+
+ggplot(data = data_info, mapping = aes(Tropic.level, Sinkrate))+
+  geom_point(aes(colour = FisheriesGild))+
+  #geom_boxplot(aes(colour = Species))+
+  geom_smooth(method = "lm")+
+  labs(x = "", y = "Sinking rate m/d")
+```
+```{r}
+ggplot(data = data_info, mapping = aes(LM, Sinkrate))+
+  geom_point(aes(shape = FisheriesGild, colour = MainDiet))+
+  #geom_boxplot(aes(colour = Species))+
+  geom_smooth(method = "lm")+
+  labs(x = "", y = "Sinking rate m/d")
+```
+Sinking rate of the pellet is lower for pagic fish and higher for demersal fish. 
+
+```{r}
+ggplot(data = data_info, mapping = aes(LM, Sinkrate, group.by = FisheriesGild, colour = FisheriesGild))+
+  geom_point(aes(colour = MainDiet))+
+  #geom_boxplot(aes(colour = Species))+
+  geom_smooth(method = "lm")+
+  labs(x = "", y = "Sinking rate m/d")
+```
+
+```{r}
+ggplot(data = data_info, mapping = aes(LM, Sinkrate, group.by = MainDiet, colour = MainDiet))+
+  geom_point(aes(colour = MainDiet))+
+  #geom_boxplot(aes(colour = Species))+
+  geom_smooth(method = "lm")+
+  labs(x = "", y = "Sinking rate m/d")
+```
+

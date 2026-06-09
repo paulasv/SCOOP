@@ -1,0 +1,11 @@
+Species,Latin,Name,FisheriesGild,Guild,SizeGuild2,SizeGuild,TrophicGuild,LM,TL_patel,Tropic level,MainDiet,Diet,FeedingGuild
+COD,Gadus morhua,Cod,Demersal,Benthopelagic,large demersal,large benthopelagic,demersal piscivore,65.4,4.17,4.09,nekton,fish,Piscivore
+HAD,Melanogrammus aeglefinus,Haddock,Demersal,Demersal,large demersal,large demersal,demersal piscivore,34.9,3.43,4.03,zoobenthos,benthos,Specialist Benthivore
+WHG,Merlangius merlangus,Whiting,Demersal,Benthopelagic,medium demersal,medium benthopelagic,demersal piscivore,28.2,4.22,4.36,nekton,fish,Piscivore
+HKE,Merluccius merluccius,Hake,Demersal,Demersal,medium demersal,medium demersal,demersal piscivore,42.1,4.53,4.42,nekton,fish,Piscivore
+WHB,Micromesistius poutassou,Blue whiting,Pelagic,Bathypelagic,medium pelagic,medium bathypelagic,pelagic planktivore,15,3.17,4.13,zooplankton,fish,Generalist Planktivore
+SPR,Sprattus sprattus,Sprat,Pelagic,Pelagic,small pelagic,small pelagic,pelagic planktivore,10.1,3.17,3.01,zooplankton,zooplankton,Zooplanktivore
+HER,Clupea harengus,Herring,Pelagic,Pelagic,medium pelagic,medium pelagic,pelagic planktivore,16.7,3.61,3.38,zooplankton,fish,Generalist Planktivore
+MAC,Scomber scombrus,Mackerel,Pelagic,Pelagic,medium pelagic,medium pelagic,pelagic piscivore,28.7,3.67,3.63,zooplankton,other,Generalist Planktivore
+HOM,Trachurus trachurus,Horse mackerel,Pelagic,Pelagic,small pelagic,small pelagic,pelagic piscivore,22.9,3.71,3.71,nekton,zooplankton,Generalist Planktivore
+PIL,Sardina pilchardus,Pilchard,Pelagic,Pelagic,small pelagic,small pelagic,pelagic planktivore,14.8,3.14,3.06,zooplankton,other,Zooplanktivore

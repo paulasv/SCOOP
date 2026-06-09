@@ -1,0 +1,190 @@
+CollectorID,ID,Haul,Order,Species,Gender,Size,Seconds,Comment,Colour,Color,Content,Consistency,Shape,Breakable,Membrane,Amount,Box,Cell,Photo taken
+1,,51,3,HAD,F,37,,A lot of the poo was broken,,,,,,,,,,,
+1,,51,2,HAD,F,34,0.91,likes and in the poo material,Brown,,,,,,,,,,
+1,,51,1,HAD,M,24,0.9,light broun granual,Brown,brown,digested,granular,tubular,NA,NA,,,,
+1,,51,1,COD,F,51,1.22,"white paste, creamy color, like mud",Pale,pale grey,digested,pasty,tubular,NA,NA,,,,
+1,,52,1,HAD,F,53,0.85,"granular matterial, full shell, a lot of material in the intestine",Brown,brown,undigested/shell,granular,tubular,NA,NA,,,,
+1,,52,2,HAD,F,48,0.78,granular pieces of shell,Brown,brown,undigested/shell,granular,tubular,,,,,,
+1,,52,3,HAD,F,58,1.19,"granular/sandy, it fell in a cloud",Brown,brown,undigested/grit,granular,tubular,Yes,,,,,
+1,,56,1,HAD,F,48,1.53,"Sandy, granular dark brown",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,,58,1,HAD,F,47,1.75,"Sandy, granular dark broun",Brown,brown,undigested/grit,granular,tubular,,,,231,7,
+1,,58,2,HAD,F,46,1.13,"Sandy, one shell light brown",Brown,brown,undigested/grit,granular,tubular,,,,231,8,
+1,,58,1,WHB,,17,4.94,Dark brown,Brown,brown,,,,,,,,,
+1,,58,2,WHB,,23,16.65,Red with blo,Color,orange,,,,,,,,,
+1,,58,3,WHB,,18,15.9,Red orange granular,Color,orange,,granular,tubular,,,,,,
+1,,58,4,WHB,,18,3.04,,,,,,,,,,,,
+1,,58,5,WHB,,18,14.07,,,,,,,,,,,,
+1,,58,6,WHB,,20,4,,,,,,,,,,,,
+1,,59,1,HAD,M,44,3.53,"not much, liquid",,,,,,,,,231,9,
+1,,59,2,HAD,U,17,1.25,"sandy, browns",Brown,brown,undigested/grit,granular,tubular,,,,231,10,
+1,1,60,1,HAD,F,43,1.13,"sandy, browns",Brown,brown,undigested/grit,granular,tubular,,,,231,11,
+1,2,60,2,HAD,F,50,0.84,"sandy, dark brown",Brown,brown,undigested/grit,granular,tubular,,,,231,12,
+1,3,61,1,HAD,M,41,0.82,"sandy, brown",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,4,61,2,HAD,F,39,1.84,"sandy, light brown",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,5,61,3,HAD,M,28,1.72,"sandy, googy ",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,6,63,1,HAD,F,37,1.53,"lightbrown, sandy/sticky",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,7,63,2,HAD,F,46,1.25,"orange broun, sandy/sticky",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,8,63,3,HAD,M,33,1.56,"brown, sandy",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,,63,1,WHG,M,32,2.5,Brown silver,Silver,silver,,smooth dense,,,,,,,
+1,,63,2,WHG,F,35,4.24,Silver paste,Silver,silver,,pasty,,,,,,,
+1,,63,3,WHG,F,38,5.09,Silver dense poo,Silver,silver,,smooth dense,,,,,,,
+1,,63,4,WHG,F,31,1.66,Silver/brown paste,Silver,silver,,pasty,,,,,,,
+1,9,64,1,HAD,F,32,1.13,"Brown, sandy",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,10,64,2,HAD,F,43,0.78,"Brown, sandy",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,11,64,3,HAD,F,43,0.94,Brown sandy,Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,12,65,1,HAD,F,48,1.59,"Brown, on faster than other, pieces of crab",Brown,brown,undigested/shell,granular,tubular,,,,,,
+1,13,65,2,HAD,M,31,1.19,Brown,Brown,brown,,pasty,,,,,,,
+1,14,65,3,HAD,M,30,1.85,Brown more pasty,Brown,brown,,pasty,,,,,,,
+1,15,67,1,HAD,F,19,2.4,Brown googy,Brown,brown,,pasty,,,,,,,
+1,16,67,2,HAD,M,18,2.44,Brown googy,Brown,brown,,pasty,,,,,,,
+1,17,67,3,HAD,F,17,2.81,Brown googy,Brown,brown,,pasty,,,,,,,
+1,18,73,1,HAD,U,15,2.4,Brown,Brown,brown,,,,,,,,,
+1,19,73,2,HAD,U,16,1.18,Brown,Brown,brown,,,,,,,,,
+1,20,73,3,HAD,U,15,1.72,Brown poopy,Brown,brown,,,,,,,,,
+1,21,74,1,HAD,M,26,1.66,Brown sandy,Brown,brown,,granular,tubular,,,,,,
+1,22,74,2,HAD,M,52,1.97,Brown sandy,Brown,brown,,granular,tubular,,,,,,
+1,23,75,1,HAD,M,43,1.82,Brown/pink,Brown,brown,,,,,,,,,
+1,24,75,2,HAD,U,15,1.78,Brown,Brown,brown,,,,,,,,,
+1,25,76,1,HAD,F,45,1.38,Light brown,Brown,brown,,,,,,,,,
+1,26,76,2,HAD,F,43,0.9,Dark brown sand,Brown,brown,,granular,tubular,,,,,,
+1,27,76,3,HAD,F,26,0.82,Brown sandy,Brown,brown,,granular,tubular,,,,,,
+1,28,78,1,HAD,F,38,1.59,"Brown sandy, shell pieces",Brown,brown,undigested/shell,granular,tubular,,,,,,
+1,29,78,2,HAD,M,35,2.03,"Green, brown",Color,green brown,,,,,,,,,
+1,30,78,3,HAD,F,34,1.6,Brown sand,Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,31,79,1,HAD,M,37,1.28,Brown sandy,Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,32,79,2,HAD,F,34,2.29,Brown sandy googy,Brown,brown,undigested/grit,,,,,,,,
+1,33,79,3,HAD,F,42,1.81,Brown sandy googy,Brown,brown,undigested/grit,,,,,,,,
+1,34,80,1,HAD,M,33,0.94,"light orange, brown sandy",Color,orange,undigested/grit,granular,tubular,,,,,,
+1,35,80,2,HAD,M,37,NA,No poop,,,,,,,,,,,
+1,36,80,3,HAD,M,36,2.43,"orange, brown sandy",Color,orange,undigested/grit,granular,tubular,,,,,,
+1,37,81,1,HAD,M,41,NA,No poop,,,,,,,,,,,
+1,38,81,2,HAD,F,35,3.09,"Brown, sandy",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,39,81,3,HAD,F,43,1.97,"sandy, shell pieces",Brown,brown,undigested/shell,granular,tubular,,,,,,
+1,40,82,1,HAD,F,58,0.75,"Brown, sandy",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,41,82,2,HAD,F,52,1.75,"Brown, pieces of crabs",Brown,brown,undigested/shell,granular,tubular,,,,,,
+1,42,82,3,HAD,F,49,4.38,"Light brown, mechado",Brown,brown,undigested /unidentified organic,fibrous,amorphous,,,,,,
+1,43,86,1,HAD,M,47,1.97,"Brown, sandy",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,44,86,2,HAD,F,37,1.75,Brown poopy,Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,45,86,3,HAD,F,52,2.9,"Sand, diarrea",Brown,brown,undigested/grit,granular,tubular,,,,,,
+1,,68,1,WHG,F,37,2.27,Light brown googy,Brown,brown,,smooth dense,Separate Lumps,,,,318,5,
+1,,68,2,WHG,F,34,1.97,Brown/silver pieces,Silver,silver,,smooth dense,Separate Lumps,,,,318,6,
+1,,68,3,WHG,F,29,8.59,Brown silver,Silver,silver,,smooth dense,Separate Lumps,,,,318,7,
+1,,68,1,HKE,,29,12.15,No poo,,,,,,,,,,,
+1,,68,2,HKE,,25,8.38,"Not much, green googy thing",Color,green,,,,,,,,,
+1,,68,3,HKE,,27,1.28,Brown,Brown,brown,,,,,,,,,
+1,,68,4,HKE,,29,20,Not much,,,,,,,,,,,
+1,,68,5,HKE,,28,5.4,"Black, brown",Brown,brown,,,,,,,,,
+1,,69,1,HKE,F,78,NA,No poo,,,,,,,,,,,
+1,,70,1,HKE,F,70,NA,No poo,,,,,,,,,,,
+1,,70,2,HKE,F,69,NA,No poo,,,,,,,,,,,
+1,,70,1,WHG,F,45,4.34,Light brown,Brown,brown,digested,pasty,tubular,,,,,,
+1,,70,2,WHG,F,44,2.54,"Light brown, silver",Brown,brown,digested,pasty,tubular,,,,,,
+1,,70,3,WHG,F,45,3.03,Silver paste,Silver,silver,digested,pasty,tubular,,,,,,
+1,,70,4,WHG,F,46,2.12,Silver paste,Silver,silver,digested,pasty,tubular,,,,,,
+1,,80,1,WHG,M,36,2.84,Silver green,Silver,silver,digested,pasty,tubular,,,,,,
+1,,80,2,WHG,F,35,5.4,Silver green not much,Silver,silver,digested,pasty,tubular,,,,,,
+1,,80,3,WHG,F,38,5.38,"White silver, mechado",Silver,silver,undigested /unidentified organic,fibrous,amorphous,,,,,,
+1,,80,4,WHG,M,31,5.37,white mechado,Pale,pale grey,undigested /unidentified organic,fibrous,amorphous,,,,,,
+1,,82,1,WHG,F,40,3.5,"Rosado, mechado ",Pale,pale grey,undigested /unidentified organic,fibrous,amorphous,,,,,,
+1,,82,2,WHG,F,49,NA,No poop,,,,,,,,,,,
+1,,82,3,WHG,F,37,2.56,"Light brown, orange poop looking",Brown,brown,digested,pasty,tubular,,,,,,
+1,,85,1,WHG,F,48,6.63,mud grey,Pale,pale grey,digested,pasty,tubular,,,,,,
+1,,85,1,HKE,F,63,2.44,mud grey,Pale,pale grey,digested,pasty,tubular,,,,,,
+1,,85,2,HKE,F,63,3.03,Mud green grey,Color,green,digested,pasty,tubular,,,,,,
+1,,85,3,HKE,F,59,NA,No poop,,,,,,,,,,,
+1,,85,4,HKE,F,75,6.31,Grey silver ,Silver,silver,digested,pasty,tubular,,,,,,
+1,,85,5,HKE,M,30,3.56,Grey silver ,Silver,silver,digested,pasty,tubular,,,,,,
+2,NA,104,,COD,M,46,0.94,"Full gut, pink pasty",Pale,Pale pink,Digested,Pasty,,,,Full gut,100,5,?
+2,NA,104,,COD,M,43,1.57,"Pink and pasty, lots, broken up",Pale,Pale pink,Digested,Pasty,,Broken up,,Full gut,100,6,?
+2,NA,114,,COD,M,81,1.15,"Pale, pasty, like WHG",Pale,pale grey,Digested,Pasty,,,,,100,7,Yes
+2,NA,116,,COD,M,74,1.56,"Very liquidy, pale brown, total liquid",Pale,pale grey,Digested,Liquid,,,,,100,8,No
+2,NA,106,,HAD,F,56,0.56,"Bits of shell and crab in a reddish brown soup, one whole shell. The shell sank fast",Color,Red-brown,Bits of shell and exoskeleton,granular,,,,,,,No
+2,NA,106,,HAD,F,55,1.34,"Greenish, fluffy aglomeration",Color,Green,Undigested/unidentified organic,fibrous,,,,,,,No
+2,NA,111,,HAD,F,56,1.07,"Black, bits of shell, grit",Dark,Black,Shell and grit,,,,,,,,No
+2,NA,111,,HAD,F,41,3.41,"Orange-brown, fibrous bits",Color,Red-orange,,,,,,,,,No
+2,NA,111,,HAD,F,38,1.65,"Brown-green, fibrous",Color,Green,,,,,,,,,No
+2,NA,114,,HAD,M,29,1.59,"Very full gut, fibrous, smell like seafood, sweet",Dark,Black?,,,,,,,,,No
+2,NA,116,,HAD,F,43,6.65,Black liquid with grit; Held together in a bit of mucus,Dark,Black,,,,,,,,,No
+2,NA,116,,HAD,F,38,2.03,"dark green-black, spilled out. Fastest bit, lots of slow particles",Dark,Black,,,,,,,,,No
+2,NA,123,,HAD,M,18,1.47,"full gut, black with bits",Dark,Black,,,,,,,,,No
+2,NA,123,,HAD,F,18,1.91,"full gut, brown with bits",Brown,Brown,,,,,,,,,No
+2,NA,111,,HKE,M,34,4.34,"Yellow-brown mush, end bit of gut empty, taken from further up around 1 inch",Color,Orange-yellow,,,,,,,,,No
+2,NA,111,,HKE,U,30,3.56,"Grey-brown powder, further up taken around 1 inch as end of gut empty. Dinintigrated into smaller particle",Brown,Brown,,,,,,,,,No
+2,NA,114,,HKE,M,34,15.53,"Empty at anus, taken from a little further up, mush, yellowish; Very mucousy, maybe not valid, not much in it",Color,Orange-yellow,,,,,,,,,No
+2,NA,116,,HKE,F,82,4.34,"From couple of inches up, silvery green",Silver,Silver,,,,,,,,,No
+2,NA,116,,HKE,F,35,6.66,"From ~1 inch up, green-brown mush powder",Brown,Brown,,,,,,,,,No
+2,NA,119,,HKE,M,71,10.75,only a tiny bit,,?,,,,,,,,,No
+2,NA,119,,HKE,F,76,10.18,"from further up, silvery green liquid, ~ 1 inch up",Silver,Silver,,,,,,,,,No
+2,NA,123,,HKE,M,34,2.66,"first inch empty, then greenish stuff",Color,Green,,,,,,,,,No
+2,1,91,,WHG,F,21,5.22,"dark green-brown, soft-solid texture. Bits sank at different rates; took fastest",Brown,Brown,,,,,,,,,No
+2,2,91,,WHG,F,18,5.12,"dark green-brown, soft-solid texture",Brown,Brown,,,,,,,,,No
+2,3,91,,WHG,F,20,4.91,"dark green-brown, soft-solid texture",Brown,Brown,,,,,,,,,No
+2,8,92,,WHG,F,39,7.56,"Lower poop already clear; used poop further up; 1cm width poop, clinging together, mucous, maybe bits; grey",Silver,pale grey,,,,,,,,,No
+2,9,92,,WHG,M,34,2.75,"Lower poop already clear; used poop further up; greenish and shiny - gold, liquidy",Silver,Silver,,,,,,,,,No
+2,10,92,,WHG,M,35,3.07,"Full of poop, soft greenish, holding together, not really mucousy, 3cm long piece",Color,Green,,,,,,,,,No
+2,11,100,,WHG,F,38,12.22,"Brown-green, mucousy, plenty",Color,Green,,,,,,,,,No
+2,15,100,,WHG,F,41,4.59,"Very full gut, long dark brown, stringy",Dark,Dark brown,,,,,,,,,Yes
+2,16,100,,WHG,F,40,2.85,"Yellow-brown, mushy diarrhea, full gut",Color,Orange-yellow,,,,,,,,,No
+2,17,100,,WHG,M,33,1.84,"Quite full gut, silvery-brown, soft",Silver,Silver,,,,,,,,,No
+2,19,101,,WHG,F,43,1.75,"Very soft, grey-green",Color,Green,,,,,,,,,No
+2,21,101,,WHG,F,43,2.81,"More solid, grey-green",Color,Green,,,,,,,,,No
+2,21,102,,WHG,M,43,9.69,"Pale, clay like, breaks up easily, lots parasites, gut not very full. Completely dispersed in water",Pale,pale grey,,,,,,,,,No
+2,22,102,,WHG,F,41,1.5,"Very full gut, paler poop, clay like. Very fast! Stuck in petri dish",Pale,pale grey,,,,,,,,,Yes
+2,23,102,,WHG,F,42,2.62,"Full gut, mucousy with bits, mud brown",Brown,Brown,,,,,,,,,No
+2,24,102,,WHG,F,26,2.5,"Stuff in gut but spread out, greenish, solid enough",Color,Green,,,,,,,,,No
+2,25,102,,WHG,M,33,3.15,"Red-brown, solid bits together. Took fastest bit",Color,Red-brown,,,,,,,,,Yes
+2,26,103,,WHG,F,46,2.66,"Green-brown, very full gut",Brown,Brown,,,,,,,,,No
+2,27,103,,WHG,M,37,2,"Green-brown, mucous",Brown,Brown,,,,,,,,,No
+2,28,103,,WHG,M,36,3.47,"Half-empty gut, pale brown, bit of mincemeat, pretty mucousy",Brown,Brown,,,,,,,,,No
+2,29,103,,WHG,F,35,2.34,"Brown, mucousy, full-gut",Brown,Brown,,,,,,,,,No
+2,30,103,,WHG,M,45,2.22,"Pink-red-brown, lots mucous, full gut",Color,Red-brown,,,,,,,,,No
+2,31,106,,WHG,F,47,4.34,Pinkish bits,Color,Pink,,,,,,,,,Yes
+2,32,106,,WHG,F,44,1.75,"Brown, clay-like. Had a fish in mouth when weighed (whb)",Brown,Brown,,,,,,,,,Yes
+2,33,107,,WHG,M,35,3.22,"half full, with mucus",,?,,,,,,,,,No
+2,34,107,,WHG,F,32,3.46,"Quite solid, hard to squeeze out, turgid! Had to re-run with a but further up gut because stopwatch glitched. The first bit disintigrated into smaller particles",,?,,,,,,,,,No
+2,35,107,,WHG,M,40,3.25,Green mush,Color,Green,,,,,,,,,No
+2,36,108,,WHG,F,37,3.6,"Orange-y, bits, full gut",Color,Orange-yellow,,,,,,,,,No
+2,37,108,,WHG,F,38,2.53,Brown clay,Brown,Brown,,,,,,,,,No
+2,38,108,,WHG,M,34,2.06,"Gut at end empty, loads of stuff puored out from further up, orange-y bits",Color,Orange-yellow,,,,,,,,,Yes
+2,39,108,,WHG,M,44,1.75,Grey clay tube,Color,Pale grey,,,,,,,,,No
+2,40,112,,WHG,F,30,4.28,"Gut half empty, black with bits",Dark,Black,,,,,,,,,No
+2,41,112,,WHG,F,39,1.62,"pale brown-grey, smooth tube, full gut",Color,Pale grey,,,,,,,,,No
+2,42,112,,WHG,M,37,2.13,"pale bits, clay in mucous, full gut",Color,Pale grey,,,,,,,,,No
+2,44,112,,WHG,M,31,9.22,"First couple of cms empty, black mucous string",Dark,Black,,,,,,,,,No
+2,46,113,,WHG,F,35,4.44,"half empty, tiny bits bright green",,Green,,,,,,,,,No
+2,47,113,,WHG,F,29,2.97,brown + mucous + bits shell,Brown,Brown,,,,,,,,,No
+2,48,113,,WHG,M,27,7.19,mostly empty; black stuff spread out; maybe not valid,Dark,Black,,,,,,,,,No
+2,49,113,,WHG,M,24,3.07,brown pasty,Brown,Brown,,,,,,,,,No
+2,52,114,,WHG,M,42,3.07,Parasites; yellow bits,Color,Orange-yellow,,,,,,,,,Yes
+2,50,114,,WHG,M,38,8.07,"red-orange tube with bits, fibrous",Color,Red-orange,,,,,,,,,No
+2,51,114,,WHG,F,39,3.53,"yellow, looks mucousy",Color,Orange-yellow,,,,,,,,,No
+2,53,116,,WHG,F,49,4.69,"gut half empty, bit of green stuff in mucus, fibrous. mucus - much longer",Color,Green,,,,,,,,,No
+2,54,116,,WHG,F,42,2.85,"red-brown tube, first ~1cm empty",Color,Red-brown,,,,,,,,,No
+2,55,116,,WHG,F,35,4.34,yellow-brown bits and mucus,Color,Orange-yellow,,,,,,,,,No
+2,56,116,,WHG,F,37,NA,"FLOATED! some green squeezed out, rest ~2 inches empty, got a pellet above this",Color,?,,,,,,,,,No
+2,57,116,,WHG,M,33,6.43,brown-pink,Color,Pink,,,,,,,,,No
+2,58,116,,WHG,F,31,1.44,"yellow-green, solid",Color,Green,,,,,,,,,No
+2,59,116,,WHG,F,30,2.09,"Very full gut, pink-orange-brown,big turd",Color,Red-orange,,,,,,,,,No
+2,60,119,,WHG,F,52,3.22,"~2 inches up, bright green, bit silvery?",Color,Green,,,,,,,,,No
+2,62,119,,WHG,F,45,9.72,"bright green. missed the first bit going down, it was a bit faster thatn what I recorded",Color,Green,,,,,,,,,No
+2,63,119,,WHG,F,31,2.97,small bit of green,Color,Green,,,,,,,,,No
+2,64,119,,WHG,M,22,2.72,dark grey-brown,Brown,Brown,,,,,,,,,No
+2,65,123,,WHG,M,31,3.62,"quite a lot, greenish-brown",Brown,Brown,,,,,,,,,No
+2,66,123,,WHG,F,25,1.78,mostly empty except bit right at end,,?,,,,,,,,,No
+2,67,123,,WHG,F,34,2.22,"brwon clay like with mucus, a lot already squeezed out, not much",Brown,Brown,,,,,,,,,No
+2,68,123,,WHG,M,27,6.47,quite mucus-y,,?,,,,,,,,,No
+2,69,123,,WHG,M,26,3.75,"not much, mucus around one bit",,?,,,,,,,,,No
+2,70,123,,WHG,M,32,2.9,"mucus-y with bits, not much, one bit",,?,,,,,,,,,No
+2,71,123,,WHG,M,13,6.4,,,,,,,,,,,,No
+2,NA,111,,HKE,F,33,NA,Empty,,,,,,,,,,,No
+2,NA,114,,HKE,M,54,NA,Empty,,,,,,,,,,,No
+2,NA,114,,HKE,M,41,NA,Empty,,,,,,,,,,,No
+2,NA,123,,HKE,M,31,NA,Empty,,,,,,,,,,,No
+2,43,112,,WHG,M,23,NA,Empty,,,,,,,,,,,No
+2,45,113,,WHG,F,36,NA,Empty,,,,,,,,,,,No
+2,61,119,,WHG,F,41,NA,Empty,,,,,,,,,,,No
+2,NA,99,,WHG,F,36,NA,Empty,,,,,,,,,,,No
+2,12,100,,WHG,M,35,NA,Empty,,,,,,,,,,,No
+2,13,100,,WHG,M,29,NA,Empty,,,,,,,,,,,No
+2,14,100,,WHG,M,31,NA,"no data, couldn’t use",,,,,,,,,,,No
+2,20,101,,WHG,F,45,NA,Empty,,,,,,,,,,,No
