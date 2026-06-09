@@ -192,35 +192,14 @@ ggplot(dietdata, aes(fct_relevel(variable, c("fish", "benthos",  "other","zoopla
 ```{r}
 data_eff<-data_info[!is.na(data_info$Sinkrate),]
 
-ggplot( data_eff, mapping = aes(LM, Sinkrate))+
-  geom_point(aes(colour = fct_reorder(Name, Sinkrate, "mean")))+
-  geom_smooth(method = "glm")+
-   scale_color_viridis_d(option = "turbo")+
-  labs(x = "Length at maturity", y = "Sinking rate m/d", color = "")
-
-ggplot(data = data_eff, aes(Diet, Sinkrate))+
-   geom_point(aes(color = fct_reorder(Name, Sinkrate, "mean")))+
-  geom_boxplot(fill = "grey", alpha = .5)+
-   scale_color_viridis_d(option = "turbo")+
-   labs(x = "Main diet item", y = "Sinking rate m/d", fill = "", color = "")
-
-ggplot(data = data_eff, aes( fct_reorder(SizeGuild2, Sinkrate, "mean"), Sinkrate))+
-   geom_jitter(aes(color = fct_reorder(Name, Sinkrate, "mean")))+
-  geom_boxplot(fill = "grey", alpha = .5)+
-   scale_color_viridis_d(option = "turbo")+
-   labs(x = "", y = "Sinking rate m/d", fill = "", color = "")+
-  coord_flip()
-
-ggplot(data = data_eff, aes( fct_reorder(FisheriesGild, Sinkrate, "mean"), Sinkrate))+
-   geom_jitter(aes(color = fct_reorder(Name, Sinkrate, "mean")))+
-  geom_boxplot(fill = "grey", alpha = .5)+
-   scale_color_viridis_d(option = "turbo")+
-   labs(x = "", y = "Sinking rate m/d", fill = "", color = "")+
-  coord_flip()
+ggplot( data_eff, mapping = aes(FeedingGuild, Sinkrate))+
+  geom_boxplot(aes(fill = fct_reorder(FeedingGuild, Sinkrate, "mean")))+
+   scale_fill_viridis_d(option = "turbo")+
+  labs(x = "feeding group", y = "Sinking rate m/d", color = "")
 
 
 
-lmod <- lm(data = data_eff, Sinkrate~LM+Diet)
+lmod <- lm(data = data_eff, Sinkrate~FeedingGuild)
 summary(lmod)
 plot(lmod)
 
@@ -233,7 +212,7 @@ plot(lmod)
 
 hist(data_eff$Sinkrate)
 
-mod <- glm(data = data_eff, Sinkrate~SizeGuild2+Species, family = "Gamma")
+mod <- glm(data = data_eff, Sinkrate~FeedingGuild, family = "Gamma")
 plot(mod)
 summary(mod)
 ```
@@ -244,11 +223,11 @@ library(gbm)
 datamodel <- data_eff[,-c(1:4)]
 
 datamodel$Fish <- as.numeric(datamodel$Fish)
-var <- c("Name", "FisheriesGild", "Guild", "SizeGuild2","SizeGuild", "TrophicGuild", "MainDiet", "Diet")
+var <- c("Name", "FisheriesGild", "Guild", "SizeGuild2","SizeGuild", "TrophicGuild", "MainDiet", "Diet", "FeedingGuild")
 datamodel[, colnames(datamodel) %in% var] <-lapply(datamodel[, colnames(datamodel) %in% var], as.factor)
 
-varmodel <- c("Sinkrate"  , "Name", "FisheriesGild","SizeGuild2", "TrophicGuild" , "LM", "TL_patel"   ,"Tropic.level" ,  "Diet"  , "Fish",  "Benthos",  "Zooplankton", "Other", "Necton")
-datamodel <- datamodel[, colnames(datamodel) %in% varmodel] 
+#varmodel <- c("Sinkrate"  , "Name", "FisheriesGild","SizeGuild2", "TrophicGuild" , "LM", "TL_patel"   ,"Tropic.level" ,  "Diet"  , "FeedingGuild" ,"Fish",  "Benthos",  "Zooplankton", "Other", "Necton")
+#datamodel <- datamodel[, colnames(datamodel) %in% var] 
 
 gbm_model <- gbm(
   formula = Sinkrate ~ ., 
@@ -270,19 +249,21 @@ plot(gbm_model)
 data_eff$Fish<-as.numeric(data_eff$Fish) 
 lmod <- lm(data = data_eff, Sinkrate~LM+Diet+Fish+Benthos+Necton)
 lmod <- lm(data = data_eff, Sinkrate~LM+Benthos)
+
+lmod <- lm(data = data_eff, Sinkrate~LM+FeedingGuild)
 summary(lmod)
 plot(lmod)
 
 hist(data_eff$Sinkrate)
 
-mod <- glm(data = data_eff, Sinkrate~LM+Benthos+Fish, family = "Gamma")
+mod <- glm(data = data_eff, Sinkrate~FeedingGuild, family = "Gamma")
 plot(mod)
 summary(mod)
 ```
 
 
 ```{r}
-ggplot(data = data_info, mapping = aes(FisheriesGild, Sinkrate, fill = FisheriesGild, colour = FisheriesGild))+
+ggplot(data = data_info, mapping = aes(FeedingGuild, Sinkrate, fill = FeedingGuild, colour = FeedingGuild))+
   geom_boxplot(alpha = 0.7)+
   geom_violin(alpha = 0.7)+
   theme(legend.position = "")+
