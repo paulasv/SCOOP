@@ -27,7 +27,7 @@ library(viridis)
 Sampling was conducted aboard the _R/V Celtic Explorer_, during IGFS leg 2 and 3 from November to December 2024.  
 Fish were dead after the haul and the samples were taken after. 
 Strip method, where pressure is applied along the ventral side of the fish, from the gut to the anus (Windell et al., 1978, Martin MS). 
-Disecting the lower part of the gut and squeezing the faecal matterial out. 
+Dissecting the lower part of the gut and squeezing the faecal material out. 
 
 ## Sinking rate
 
@@ -89,6 +89,21 @@ info <- read.csv("stocks_info.csv")
 data_info <-merge(data_all, info)
 
 
+## Haul data
+hh <- read.csv("Station_data.csv")
+hh <- subset(hh, fldCruiseName == "IGFS2024", select = c("fldCruiseName","fldShotDepth", "fldCruiseStationNumber", "fldStratum"))
+hh$Haul <- hh$fldCruiseStationNumber
+library(stringr)
+hh$Area <- sub("([a-z]+)[A-Z].*", "\\1", hh$fldStratum)
+
+
+data_info <- merge(data_info, hh)
+
+```
+
+# Density plots of sinking rates per species
+
+```{r}
 ## Ridges plot
 ggplot(data_info, aes(x = Sinkrate, y = fct_reorder(Name, Sinkrate, "mean"), fill = fct_reorder(Name, Sinkrate, "mean"), color = fct_reorder(Name, Sinkrate, "mean")))+
   #geom_boxplot(alpha = .4)+
@@ -98,7 +113,17 @@ ggplot(data_info, aes(x = Sinkrate, y = fct_reorder(Name, Sinkrate, "mean"), fil
   theme(legend.position = "")+
   labs(y = "", x = "Sinking rate (m/d)")
 
+ggplot(data_info, aes(x = Sinkrate, y = fct_reorder(Name, Sinkrate, mean), fill = fct_reorder(Name, Sinkrate, mean), color = fct_reorder(Name, Sinkrate, mean)))+
+  geom_boxplot( alpha = .65, width = .3)+
+  #geom_boxplot(alpha = .1, colour = "black", fill = "white", position = "dodge")+
+  geom_density_ridges(alpha = .5)+  
+  scale_fill_viridis_d(option = "turbo")+
+  scale_color_viridis_d(option = "turbo")+
+  theme(legend.position = "")+
+  labs(y = "", x = "Sinking rate (m/d)")
 ```
+
+
 
 
 ## Differences between sinking rates
@@ -131,6 +156,16 @@ anova<- aov(Sinkrate~Species, data_info)
 summary(anova)
 # posthoc
 TukeyHSD(anova)
+# ANOVA - for normal and equal variances
+anova<- aov(Sinkrate~FeedingGuild, data_info)
+summary(anova)
+# posthoc
+TukeyHSD(anova)
+# ANOVA - for normal and equal variances
+anova<- aov(Sinkrate~Area, data_info)
+summary(anova)
+# posthoc
+TukeyHSD(anova)
 ```
 
 
@@ -143,9 +178,8 @@ ggplot(data = subset(dem, Species %in% c("HAD", "WHG", "HKE", "COD")), mapping =
   scale_fill_manual(values = c( "#FABA39FF" ,"#F66B19FF", "#CB2A04FF", "#7A0403FF"),  labels = c("Hake", "Whiting", "Haddock", "Cod"))+
   labs(y = "Sinking rate (m/d)", x = "Fish length (cm)", col = "Species")
 
-
 ```
-Correlation sinking rate with lenght of the fish. 
+Correlation sinking rate with length of the fish. 
 
 ```{r}
 cordata <- subset(dem, Species %in% c("HAD", "WHG", "HKE", "COD"))
@@ -155,6 +189,173 @@ cor.test(cordata$Size, cordata$Sinkrate, method = "pearson")
 ## Week relationship significant only for haddock
 ```
 
+### Model sinking rate
+
+```{r}
+ggplot(data = data_info, mapping = aes(FeedingGuild, Sinkrate, fill = FeedingGuild, colour = FeedingGuild))+
+  geom_boxplot(alpha = 0.7)+
+  geom_point(color = "black")+
+  geom_violin(alpha = 0.7)+
+  theme(legend.position = "")+
+  labs(x = "", y = "Sinking rate m/d")
+ggplot(data = data_info, mapping = aes(fldStratum, Sinkrate, fill = fldStratum, colour = fldStratum))+
+  geom_boxplot(alpha = 0.7)+
+  geom_point(color = "black")+
+  geom_violin(alpha = 0.7)+
+  theme(legend.position = "")+
+  labs(x = "", y = "Sinking rate m/d")
+
+ggplot(data = data_info, mapping = aes(Area, Sinkrate, fill = Area, colour = Area))+
+  geom_boxplot(alpha = 0.7)+
+  geom_point(color = "black")+
+  geom_violin(alpha = 0.7)+
+  theme(legend.position = "")+
+  labs(x = "", y = "Sinking rate m/d")
+```
+
+Test looks like except generalist planktivore, and zooplanktivore all the rest are significantly different. Piscivore, specialist bentivore and (gp and Z).
+
+```{r}
+# Test homogeneity of variances
+# Test homogeneity of variances
+bartlett.test(Sinkrate~FeedingGuild, data_info) # pvalue<0.05 - not all the groups have the same variance
+# Test equality of variances
+leveneTest(Sinkrate~FeedingGuild, data_info)# pvalue<0.05 - differences in sample variances
+
+# Test normal
+by(data_info$Sinkrate , data_info$FeedingGuild, shapiro.test) # had,hke and hke are not normally distributed
+hist(data_info$Sinkrate)
+shapiro.test(data_info$Sinkrate) # Data is not normal
+
+#########-----------------------------###########
+# For non Normal
+kruskal.test(Sinkrate~FeedingGuild, data_info) # there is significant difference between the groups p <0.05
+# posthoc
+library(FSA)
+dunnTest(Sinkrate~FeedingGuild, data_info, method = "bonferroni")
+
+#########------------------------------############
+# ANOVA - for normal and equal variances
+anova<- aov(Sinkrate~FeedingGuild, data_info)
+summary(anova)
+# posthoc
+TukeyHSD(anova)
+```
+```{r}
+data_eff<-data_info[!is.na(data_info$Sinkrate),]
+
+ggplot( data_eff, mapping = aes(fct_reorder(FeedingGuild, Sinkrate, "mean"), Sinkrate))+
+  geom_jitter(aes(color = fct_reorder(Species, Sinkrate, "mean")))+
+  geom_boxplot(color = "grey", fill = "grey", alpha = .6)+
+  scale_color_viridis_d(option = "turbo")+
+  coord_flip()+
+  labs(x = "", y = "Sinking rate m/d", color = "")
+
+ggplot( data_eff, mapping = aes(fct_reorder(SizeGuild2, Sinkrate, "mean"), Sinkrate))+
+  geom_jitter(aes(color = fct_reorder(Species, Sinkrate, "mean")))+
+  geom_boxplot(color = "grey", fill = "grey", alpha = .6)+
+  scale_color_viridis_d(option = "turbo")+
+  coord_flip()+
+  labs(x = "", y = "Sinking rate m/d", color = "")
+```
+
+
+
+
+```{r}
+library(lme4)
+
+m_species <- glmer( Sinkrate~ Species + (1|Haul),
+                   data = data_eff,
+                   family = Gamma(link="log"),
+                   control = glmerControl(optimizer = "bobyqa",
+                         optCtrl = list(maxfun = 1e5)))
+m_feeding <- glmer(Sinkrate ~ FeedingGuild + (1|Haul),
+                  data = data_eff,
+                  family = Gamma(link="log"),
+                  control = glmerControl(optimizer = "bobyqa",
+                         optCtrl = list(maxfun = 1e5)))
+
+m_sizeFG <- glmer(Sinkrate ~  SizeGuild2 + (1|Haul),
+                  data = data_eff,
+                  family = Gamma(link="log"),
+                  control = glmerControl(optimizer = "bobyqa",
+                         optCtrl = list(maxfun = 1e5)))
+
+m_size <- glmer(Sinkrate ~   Size + (1|Haul),
+                  data = data_eff,
+                  family = Gamma(link="log"),
+                control = glmerControl(optimizer = "bobyqa",
+                         optCtrl = list(maxfun = 1e5)))
+
+m_stratum <- glmer(Sinkrate ~ fldStratum + (1|Haul),
+                  data = data_eff,
+                  family = Gamma(link="log"),
+                  control = glmerControl(optimizer = "bobyqa",
+                         optCtrl = list(maxfun = 1e9))) ###
+
+m_area <- glmer(Sinkrate ~ Area + (1|Haul),
+                  data = data_eff,
+                  family = Gamma(link="log"),
+                  control = glmerControl(optimizer = "bobyqa",
+                         optCtrl = list(maxfun = 1e5)))
+
+m_depth <- glmer(Sinkrate ~ fldShotDepth + (1|Haul),
+                  data = data_eff,
+                  family = Gamma(link="log"),
+                  control = glmerControl(optimizer = "bobyqa",
+                         optCtrl = list(maxfun = 1e9))) ####
+
+m_tl <- glmer(Sinkrate ~ Tropic_level + (1|Haul),
+                  data = data_eff,
+                  family = Gamma(link="log"),
+                  control = glmerControl(optimizer = "bobyqa",
+                         optCtrl = list(maxfun = 1e5))) ####
+
+m_diet <- glmer(Sinkrate ~ Piscivore+GeneralistPlanktivore+Zooplanktivore+SpecialistBenthivore + (1|Haul),
+                  data = data_eff,
+                  family = Gamma(link="log"),
+                  control = glmerControl(optimizer = "bobyqa",
+                         optCtrl = list(maxfun = 1e5)))
+
+AIC(m_species, m_feeding,m_sizeFG, m_stratum, m_size, m_area, m_depth, m_diet, m_tl)
+
+summary(m_sizeFG)
+
+AIC(m_species, m_feeding,m_sizeFG, m_stratum, m_size)
+
+```
+```{r}
+coef_df <- data.frame(Species = names(fixef(m_species)[-1]),
+                      Estimate = fixef(m_species)[-1])
+ggplot(coef_df, aes(x = Species, y = Estimate)) +
+  geom_col() +
+  coord_flip() +
+  labs(title = "Species-level fixed effects on sinking rate",
+       y = "Estimate (log scale)", x = "")
+```
+
+
+```{r}
+ggplot(data = data_info, mapping = aes(SizeGuild2, Sinkrate, fill = SizeGuild2, colour = SizeGuild2))+
+  geom_boxplot(alpha = 0.7)+
+  geom_violin(alpha = 0.7)+
+  theme(legend.position = "")+
+  labs(x = "", y = "Sinking rate m/d")
+```
+
+
+
+```{r}
+summary(m_species)
+library(vegan)
+adonis2(data_eff$Sinkrate ~ data_eff$Species, data = data_eff, permutations = 999)
+
+```
+
+
+
+#########################################################
 ## Sinking rate effects
 
 
@@ -189,33 +390,6 @@ ggplot(dietdata, aes(fct_relevel(variable, c("fish", "benthos",  "other","zoopla
 
 
 
-```{r}
-data_eff<-data_info[!is.na(data_info$Sinkrate),]
-
-ggplot( data_eff, mapping = aes(FeedingGuild, Sinkrate))+
-  geom_boxplot(aes(fill = fct_reorder(FeedingGuild, Sinkrate, "mean")))+
-   scale_fill_viridis_d(option = "turbo")+
-  labs(x = "feeding group", y = "Sinking rate m/d", color = "")
-
-
-
-lmod <- lm(data = data_eff, Sinkrate~FeedingGuild)
-summary(lmod)
-plot(lmod)
-
-
-lmod <- lm(data = data_eff, Sinkrate~SizeGuild2)
-summary(lmod)
-plot(lmod)
-
-
-
-hist(data_eff$Sinkrate)
-
-mod <- glm(data = data_eff, Sinkrate~FeedingGuild, family = "Gamma")
-plot(mod)
-summary(mod)
-```
 
 ```{r, fig.height=10, fig.width=20}
 library(gbm)
@@ -326,3 +500,130 @@ ggplot(data = data_info, mapping = aes(LM, Sinkrate, group.by = MainDiet, colour
   labs(x = "", y = "Sinking rate m/d")
 ```
 
+### Models
+
+
+```{r}
+lmod.sp <- lm(data = data_eff, Sinkrate~Name)
+summary(lmod.sp)
+plot(lmod.sp)
+
+lmod.fg <- lm(data = data_eff, Sinkrate~FeedingGuild)
+summary(lmod.fg)
+plot(lmod.fg)
+
+lmod.size <- lm(data = data_eff, Sinkrate~Size)
+summary(lmod.size)
+plot(lmod.size)
+
+lmod.sizeg <- lm(data = data_eff, Sinkrate~SizeGuild)
+summary(lmod.sizeg)
+plot(lmod.sizeg)
+
+lmod.sizefg <- lm(data = data_eff, Sinkrate~SizeGuild2)
+summary(lmod.sizefg)
+plot(lmod.sizefg)
+
+lmod.area <- lm(data = data_eff, Sinkrate~Area)
+summary(lmod.area)
+plot(lmod.area)
+
+lmod.stratum <- lm(data = data_eff, Sinkrate~fldStratum)
+summary(lmod.stratum)
+plot(lmod.stratum)
+
+lmod.d <- lm(data = data_eff, Sinkrate~fldShotDepth)
+summary(lmod.d)
+plot(lmod.d)
+
+lmod.diet <- lm(data = data_eff, Sinkrate~Piscivore+GeneralistPlanktivore+Zooplanktivore+SpecialistBenthivore)
+summary(lmod.diet)
+plot(lmod.diet)
+
+lmod.dietsize <- lm(data = data_eff, Sinkrate~FeedingGuild+Size)
+summary(lmod.dietsize)
+plot(lmod.dietsize)
+
+AIC(lmod.sp,lmod.fg,lmod.size, lmod.area, lmod.stratum, lmod.d, lmod.sizeg, lmod.sizefg, lmod.diet, lmod.dietsize)
+
+```
+
+
+```{r}
+hist(data_eff$Sinkrate)
+
+mod1<- glm(data = data_eff, Sinkrate~Name, family = inverse.gaussian(link="log"))
+plot(mod1)
+summary(mod1)
+
+
+mod2 <- glm(data = data_eff, Sinkrate~ SizeGuild2, family = inverse.gaussian(link="log"))
+plot(mod2)
+summary(mod2)
+
+
+mod3 <- glm(data = data_eff, Sinkrate~Area, family = inverse.gaussian(link="log"))
+plot(mod3)
+summary(mod3)
+
+AIC(mod1, mod2, mod3)
+
+```
+```{r}
+hist(data_eff$Sinkrate)
+
+mod.sp<- glm(data = data_eff, Sinkrate~Name, family = Gamma(link="log"))
+plot(mod.sp)
+summary(mod.sp)
+
+
+mod.sg2 <- glm(data = data_eff, Sinkrate~ SizeGuild2, family = Gamma(link="log"))
+plot(mod.sg2)
+summary(mod.sg2)
+
+mod.size <- glm(data = data_eff, Sinkrate~ Size, family = Gamma(link="log"))
+plot(mod.size)
+summary(mod.size)
+
+mod.fg <- glm(data = data_eff, Sinkrate~ FeedingGuild, family = Gamma(link="log"))
+plot(mod.fg)
+summary(mod.fg)
+
+mod.fishg <- glm(data = data_eff, Sinkrate~ FisheriesGild, family = Gamma(link="log"))
+plot(mod.fishg)
+summary(mod.fishg)
+
+mod.depth<- glm(data = data_eff, Sinkrate~fldShotDepth, family = Gamma(link="log"))
+plot(mod.depth)
+summary(mod.depth)
+
+mod.diet<- glm(data = data_eff, Sinkrate~Piscivore+GeneralistPlanktivore+Zooplanktivore+SpecialistBenthivore, family = Gamma(link="log"))
+plot(mod.diet)
+summary(mod.diet)
+
+mod.area <- glm(data = data_eff, Sinkrate~Area, family = Gamma(link="log"))
+plot(mod.area)
+summary(mod.area)
+
+mod.stratum <- glm(data = data_eff, Sinkrate~fldStratum, family = Gamma(link="log"))
+plot(mod.stratum)
+summary(mod.stratum)
+
+AIC(mod.sp, mod.sg2,mod.size, mod.fg,mod.fishg, mod.area,mod.depth, mod.stratum, mod.diet)
+```
+
+```{r}
+library(lme4)
+m_species <- lmer(Sinkrate ~ Name + (1|Haul), data = data_eff)
+
+m_groups  <- lmer(Sinkrate ~ FeedingGuild + (1|Haul), data = data_eff)
+m_fs  <- lmer(Sinkrate ~ fldStratum + (1|Haul), data = data_eff)
+m_sg  <- lmer(Sinkrate ~ SizeGuild2 + (1|Haul), data = data_eff)
+m_size  <- lmer(Sinkrate ~ Size + (1|Haul), data = data_eff)
+
+AIC(m_species, m_sg, m_groups, m_fs, m_fisheries, m_size)
+
+
+library(emmeans)
+emmeans(m_species, "Name")
+```
